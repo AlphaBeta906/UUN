@@ -1,7 +1,15 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const fs = require("fs");
+let markdownIt = require("markdown-it");
+let markdownItFootnote = require("markdown-it-footnote");
 
 module.exports = config => {
+    let options = {
+        html: true, // Enable HTML tags in source
+        breaks: true,  // Convert '\n' in paragraphs into <br>
+        linkify: true // Autoconvert URL-like text to links
+    };
+
     config.addPlugin(eleventyNavigationPlugin);
 
     config.addPassthroughCopy('./src/assets/')
@@ -23,6 +31,9 @@ module.exports = config => {
         ui: false,
         ghostMode: false
     });
+
+    let markdownLib =  markdownIt(options).use(markdownItFootnote);
+    config.setLibrary("md", markdownLib);
 
     return {
         templateFormats: [
