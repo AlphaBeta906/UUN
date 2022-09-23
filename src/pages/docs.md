@@ -10,5 +10,5 @@ permalink: /docs/
 </nav>
 
 ## Portals
-- <a href="/docs/protocol/">→ Protocols</a>
-- <a href="/docs/world/">→ Worlds</a>
+- <a href="/docs/protocol/">Protocols</a>
+- <a href="/docs/world/">Worlds</a>
