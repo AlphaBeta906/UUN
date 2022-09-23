@@ -1,5 +1,5 @@
 ---
-title: World Progression Classification
+title: Clearance Levels
 layout: layouts/protocol.njk
 ---
 <nav class="breadcrumb">
