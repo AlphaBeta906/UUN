@@ -16,3 +16,10 @@ permalink: /docs/protocol/
         <a href="/docs/protocol/wpc/">World Progression Classification</a>
     </li>
 </ul>
+
+## Protocols
+<ul>
+    <li>
+        <a href="/docs/protocol/clearance/">Clearance Levels</a>
+    </li>
+</ul>
