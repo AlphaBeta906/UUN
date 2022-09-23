@@ -5,7 +5,7 @@ permalink: /docs/protocol/
 ---
 <small><a href="/docs">Documents</a> > <b>Protocols</b></small><br><br>
 
-<b>Classifications</b>
+## Classifications
 <ul>
     <li>
         <a href="/docs/protocol/wpc/">World Progression Classification</a>
