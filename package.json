@@ -4,17 +4,25 @@
   "description": "a",
   "main": ".eleventy.js",
   "scripts": {
-    "serve": "eleventy --serve",
-    "build": "eleventy"
+    "serve:sass": "sass --watch src/assets/css:_site/assets/css && postcss _site/assets/css/index.css --replace --use autoprefixer",
+    "build:sass": "sass src/assets/css:_site/assets/css && postcss _site/assets/css/index.css --replace --use autoprefixer",
+    "serve:eleventy": "eleventy --serve",
+    "build:eleventy": "eleventy",
+    "serve": "npm-run-all build:sass --parallel serve:*",
+    "build": "npm-run-all build:*"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
+    "autoprefixer": "^10.4.12",
     "markdown-it": "^13.0.1",
-    "markdown-it-footnote": "^3.0.3"
+    "markdown-it-footnote": "^3.0.3",
+    "postcss-cli": "^10.0.0"
   },
   "devDependencies": {
-    "@11ty/eleventy-navigation": "^0.3.5"
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.55.0"
   }
 }

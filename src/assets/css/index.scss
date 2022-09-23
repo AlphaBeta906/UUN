@@ -1,5 +1,5 @@
-html,body {
-    overflow-x:hidden;
+html, body {
+    overflow-x: hidden;
 }
 
 a {
@@ -10,20 +10,22 @@ a {
 .breadcrumb {
     padding: 10px .5rem;
     font-size: smaller;
-}
 
-.breadcrumb ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-    
-.breadcrumb li:not(:last-child)::after {
-    display: inline-block;
-    margin: 0 .25rem;
-    content: "→";
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li:not(:last-child)::after {
+        display: inline-block;
+        margin: 0 .25rem;
+        content: "➥";
+        color: #aa2222;
+        font-weight: 800;
+    }
 }
 
 .marquee {
