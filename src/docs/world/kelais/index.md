@@ -3,7 +3,13 @@ title: World of Kelais
 layout: layouts/world.njk
 link-citations: true
 ---
-<small><a href="/docs">Documents</a> > <a href="/docs/world">Worlds</a> > **Kelais**</small><br><br>
+<nav class="breadcrumb">
+    <ul>
+        <li><a href="/docs">Documents</a></li>
+        <li><a href="/docs/world">Worlds</a></li>
+        <li><b>Kelais</b></li>
+    </ul>
+</nav>
 
 **Classification: <span style="color:orange;">Stage 2 - Research</span>**<br>
 **Worldcode: 8-87-901776-987111**
@@ -18,4 +24,4 @@ The World of Kelais[^1] is a world in the A8 Cluster. The landform of Kelais is 
 
 [^1]: The name "kelais" is the name for their planet.
 
-<a href="/docs/world/kelais/update-1" style="font-weight: bolder;">➡️ Kelais Update 1</a>
+<a href="/docs/world/kelais/update-1" style="font-weight: bolder;">→ Kelais Update 1</a>

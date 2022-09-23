@@ -1,11 +1,14 @@
 ---
 title: Documents
-layout: layouts/index.njk
+layout: layouts/docs.njk
 permalink: /docs/
 ---
+<nav class="breadcrumb">
+    <ul>
+        <li><b>Documents</b></li>
+    </ul>
+</nav>
 
-<center style="padding-top: 20px;">
-    <h1>
-        <a href="/docs/world/">Worlds</a> - <a href="/docs/protocol/">Protocol</a>
-    </h1>
-</center>
+## Portals
+- <a href="/docs/protocol/">→ Protocols</a>
+- <a href="/docs/world/">→ Worlds</a>

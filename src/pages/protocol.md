@@ -3,7 +3,12 @@ title: Protocols
 layout: layouts/protocol.njk
 permalink: /docs/protocol/
 ---
-<small><a href="/docs">Documents</a> > <b>Protocols</b></small><br><br>
+<nav class="breadcrumb">
+    <ul>
+        <li><a href="/docs">Documents</a></li>
+        <li><b>Protocols</b></li>
+    </ul>
+</nav>
 
 ## Classifications
 <ul>

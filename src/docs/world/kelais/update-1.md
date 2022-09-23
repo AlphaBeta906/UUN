@@ -4,7 +4,14 @@ layout: layouts/world.njk
 link-citations: true
 ---
 
-<small><a href="/docs">Documents</a> > <a href="/docs/world">Worlds</a> > <a href="/docs/world/kelais">Kelais</a> > **Kelais Update 1**</small><br><br>
+<nav class="breadcrumb">
+    <ul>
+        <li><a href="/docs">Documents</a></li>
+        <li><a href="/docs/world">Worlds</a></li>
+        <li><a href="/docs/world/kelais">Kelais</a></li>
+        <li><b>Update 1</b></li>
+    </ul>
+</nav>
 
 The recent air condition of our site in Yibble on July 17th, 2002 is determined as hazardous, with our current safety gear being not enough to deter from potential health condition. The apparent cause of this is of a recent wildfire nearby another city called "Williams", that is exponentially growing around the nearby area.
 
