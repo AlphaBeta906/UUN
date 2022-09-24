@@ -9,6 +9,7 @@ layout: layouts/protocol.njk
         <li><b>World Progression Classification</b></li>
     </ul>
 </nav>
+<hr>
 
 The **World Progression Classification** also known as **WPC**, issued by C/GAR 0013, is a classification tool used to designate integration with the UUN.
 

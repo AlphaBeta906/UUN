@@ -9,6 +9,7 @@ permalink: /docs/world/
         <li><b>Worlds</b></li>
     </ul>
 </nav>
+<hr>
 
 ## Worlds
 <ul>

@@ -9,6 +9,8 @@ layout: layouts/world.njk
         <li><b>Alphat</b></li>
     </ul>
 </nav>
+<hr>
 
 **Classification: <span style="color:#0c0;">Open World</span>**
 **Worldcode: A-461-APT**
+<hr>

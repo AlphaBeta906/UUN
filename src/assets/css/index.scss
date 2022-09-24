@@ -35,6 +35,24 @@ a {
     animation: scroll 15s linear infinite;
 }
 
+.table-of-contents {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    padding-left: 10px;
+    width: auto;
+}
+
+.toc-container-header {
+    font-weight: 900;
+    text-align: center;
+    font-size: larger;
+}
+
+
 @keyframes scroll {
     from {
         transform: translateX(100%);

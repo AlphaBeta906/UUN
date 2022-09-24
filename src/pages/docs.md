@@ -8,6 +8,7 @@ permalink: /docs/
         <li><b>Documents</b></li>
     </ul>
 </nav>
+<hr>
 
 ## Portals
 - <a href="/docs/protocol/">Protocols</a>

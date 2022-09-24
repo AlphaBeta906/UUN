@@ -9,6 +9,7 @@ permalink: /docs/protocol/
         <li><b>Protocols</b></li>
     </ul>
 </nav>
+<hr>
 
 ## Classifications
 <ul>

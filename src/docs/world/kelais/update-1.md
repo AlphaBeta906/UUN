@@ -12,6 +12,7 @@ link-citations: true
         <li><b>Update 1</b></li>
     </ul>
 </nav>
+<hr>
 
 <p style="padding: 15px">
 The recent air condition of our site in Yibble on July 17th, 2002 is determined as hazardous, with our current safety gear being not enough to deter from potential health condition. The apparent cause of this is of a recent wildfire nearby another city called "Williams", that is exponentially growing around the nearby area.<br><br>

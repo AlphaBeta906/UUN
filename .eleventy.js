@@ -2,6 +2,8 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const fs = require("fs");
 let markdownIt = require("markdown-it");
 let markdownItFootnote = require("markdown-it-footnote");
+let markdownItAnchor = require("markdown-it-anchor");
+let markdownItTOC = require("markdown-it-table-of-contents");
 
 module.exports = config => {
     let options = {
@@ -32,7 +34,14 @@ module.exports = config => {
         ghostMode: false
     });
 
-    let markdownLib =  markdownIt(options).use(markdownItFootnote);
+    let markdownLib =  markdownIt(options)
+        .use(markdownItFootnote)
+        .use(markdownItAnchor.default)
+        .use(markdownItTOC, {
+            "containerHeaderHtml": '<div class="toc-container-header">Contents</div>',
+            "includeLevel": [2,3,4]
+        });
+
     config.setLibrary("md", markdownLib);
 
     return {

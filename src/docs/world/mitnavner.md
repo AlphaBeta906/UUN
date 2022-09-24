@@ -10,6 +10,8 @@ layout: layouts/world.njk
         <li><b>Mitnavner</b></li>
     </ul>
 </nav>
+<hr>
 
 **Classification: <span style="color:orange;">Stage 2 - Research</span>**<br>
 **Worldcode: 6-12-221569-001931**
+<hr>
