@@ -1,5 +1,5 @@
 ---
-title: World of Alphat
+title: World of Werbia
 layout: layouts/world.njk
 excerpt: The World of Werbia, formerly known as the World of Sundir during 1985-1994 is a world in the B2 Cluster...
 tags:
