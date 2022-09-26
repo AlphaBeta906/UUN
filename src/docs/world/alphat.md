@@ -1,7 +1,6 @@
 ---
 title: World of Alphat
 layout: layouts/world.njk
-excerpt: The World of Alphat is a world in the A3 Cluster...
 tags:
     - Worlds
 ---

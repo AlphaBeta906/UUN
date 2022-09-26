@@ -2,7 +2,6 @@
 title: Kelais Update 1
 layout: layouts/world.njk
 link-citations: true
-excerpt: The recent air condition of our site in Yibble on July 17th, 2002 is determined as hazardous, with our current safety gear being not enough to deter from potential health condition.
 tags:
     - Posts
 ---

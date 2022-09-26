@@ -12,7 +12,7 @@ module.exports = function (collection) {
         index.addDoc({
             id: page.url,
             title: page.template.frontMatter.data.title,
-            excerpt: page.template.frontMatter.data.excerpt,
+            excerpt: page.template.frontMatter.content,
             tags: page.template.frontMatter.data.tags
         });
     });

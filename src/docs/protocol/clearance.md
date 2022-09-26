@@ -1,7 +1,6 @@
 ---
 title: Clearance Levels
 layout: layouts/protocol.njk
-excerpt: All members of the UUN are given access to official documents and data to help them further their research...
 tags:
     - Protocols
 ---

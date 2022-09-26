@@ -16,13 +16,19 @@ module.exports = config => {
     config.addPlugin(eleventyNavigationPlugin);
 
     config.addPassthroughCopy('./src/assets/')
-    config.addPassthroughCopy("./src/js/");
+    config.addPassthroughCopy('./src/js/')
 
     config.addFilter("search", searchFilter);
 
     config.addCollection("docs", collection => {
         return [...collection.getFilteredByGlob("./src/docs/**/*.md")];
     });
+
+    config.setBrowserSyncConfig({
+		files: './_site/css/**/*.css'
+	});
+    
+    config.addFilter("search", searchFilter);
 
     // for --serve
     config.setBrowserSyncConfig({

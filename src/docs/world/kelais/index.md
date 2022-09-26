@@ -2,7 +2,6 @@
 title: World of Kelais
 layout: layouts/world.njk
 link-citations: true
-excerpt: The World of Kelais is a world in the A8 Cluster...
 tags:
     - Worlds
 ---
