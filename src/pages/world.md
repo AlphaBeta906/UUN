@@ -20,7 +20,7 @@ permalink: /docs/world/
         <a href="/docs/world/aztrax/" style="color:#0c0;">Aztrax</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px"/>
     </li>
     <li>
-        <a href="/docs/world/werbia/" style="color:#0c0;">Werbia</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px"/>
+        <a href="/docs/world/werbia/" style="color:#0c0;">Werbia</a>
     </li>
     <li>
         <a href="/docs/world/tdw/" style="color:#0c0;">The Darkest World</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px"/>
