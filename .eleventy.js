@@ -4,6 +4,7 @@ let markdownIt = require("markdown-it");
 let markdownItFootnote = require("markdown-it-footnote");
 let markdownItAnchor = require("markdown-it-anchor");
 let markdownItTOC = require("markdown-it-table-of-contents");
+const searchFilter = require("./src/filters/searchFilter");
 
 module.exports = config => {
     let options = {
@@ -15,6 +16,13 @@ module.exports = config => {
     config.addPlugin(eleventyNavigationPlugin);
 
     config.addPassthroughCopy('./src/assets/')
+    config.addPassthroughCopy("./src/js/");
+
+    config.addFilter("search", searchFilter);
+
+    config.addCollection("docs", collection => {
+        return [...collection.getFilteredByGlob("./src/docs/**/*.md")];
+    });
 
     // for --serve
     config.setBrowserSyncConfig({

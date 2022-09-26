@@ -1,6 +1,9 @@
 ---
 title: World of Mitnavner
 layout: layouts/world.njk
+excerpt: The World of Kelais is a world in the B5 Cluster...
+tags:
+    - Worlds
 ---
 
 <nav class="breadcrumb">
