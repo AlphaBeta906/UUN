@@ -14,7 +14,11 @@ tags:
 </nav>
 <hr>
 
+<div class="alert danger">
+This page is protected under C/GAR 0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of the UUN, will result in termination.
+</div>
+
 <div class="alert info">
-<b>Classification: <span style="color:orange;">Stage 2 - Research</span>**<br></b>
-<b>Worldcode: 6-12-221569-001931</b>
+Classification: <span style="color:orange;">Stage 2 - Research</span><br>
+Worldcode: 6-12-221569-001931
 </div>

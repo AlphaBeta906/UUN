@@ -14,8 +14,8 @@ tags:
 <hr>
 
 <div class="alert info">
-<b>Classification: <span style="color:#0c0;">Open World</span></b><br>
-<b>Worldcode: W-604-WRB</b>
+Classification: <span style="color:#0c0;">Open World</span><br>
+Worldcode: W-604-WRB
 </div>
 
 ## Abstract

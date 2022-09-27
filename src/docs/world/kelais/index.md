@@ -14,9 +14,13 @@ tags:
 </nav>
 <hr>
 
+<div class="alert danger">
+This page is protected under C/GAR 0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of the UUN, will result in termination.
+</div>
+
 <div class="alert info">
-<b>Classification: <span style="color:orange;">Stage 2 - Research</span></b><br>
-<b>Worldcode: 8-87-901776-987111</b>
+Classification: <span style="color:orange;">Stage 2 - Research</span><br>
+Worldcode: 8-87-901776-987111
 </div>
 
 [[toc]]
@@ -30,7 +34,7 @@ The World of Kelais[^1] is a world in the A8 Cluster. The landform of Kelais is 
 Yibble is the primary base of operations of the Kelais Research Team. It is next to a river, known by them as the "Masta' River," which borders another nation called Mastistan. The locals of Yibble speak English, however they refer to it as Anglese.
 
 ### Samarin
-<div class="alert warning"><b>Warning!</b> Please be advised that the worldport leading to the site in Samarin is unstable, usage of the worldport may lead to death if the worldport closes. Please use the worldport with risk, and only when needed.</div>
+<div class="alert warning"><b>Please be advised that the worldport leading to the site in Samarin is unstable, usage of the worldport may lead to death if the worldport closes. Please use the worldport with risk, and only when needed.</b></div>
 
 Samarin is a village in the desert of Mastistan, with it's nearest city being Nottelocale, and is the base of operations for GPS, map data and other satellites. Samarin does not speak Anglese, only having an elder who knows basic Anglese.
 

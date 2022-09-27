@@ -14,6 +14,6 @@ tags:
 <hr>
 
 <div class="alert info">
-<b>Classification: <span style="color:#0c0;">Open World</span></b><br>
-<b>Worldcode: A-461-APT</b>
+Classification: <span style="color:#0c0;">Open World</span><br>
+Worldcode: A-461-APT
 </div>
