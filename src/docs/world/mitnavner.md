@@ -20,5 +20,5 @@ This page is protected under C/GAR 0002, which is the Research Espionage Act. An
 
 <div class="alert info">
 Classification: <span style="color:orange;">Stage 2 - Research</span><br>
-Worldcode: 6-12-221569-001931
+Frequency: 006.8762
 </div>

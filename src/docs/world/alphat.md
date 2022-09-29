@@ -15,5 +15,5 @@ tags:
 
 <div class="alert info">
 Classification: <span style="color:#0c0;">Open World</span><br>
-Worldcode: A-461-APT
+Frequency: 156.0087
 </div>

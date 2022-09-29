@@ -13,14 +13,13 @@ tags:
     </ul>
 </nav>
 <hr>
-
 <div class="alert danger">
 This page is protected under C/GAR 0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of the UUN, will result in termination.
 </div>
 
 <div class="alert info">
 Classification: <span style="color:orange;">Stage 2 - Research</span><br>
-Worldcode: 8-87-901776-987111
+Frequency: 087.9971
 </div>
 
 [[toc]]
