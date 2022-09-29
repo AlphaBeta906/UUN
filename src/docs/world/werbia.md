@@ -15,7 +15,7 @@ tags:
 
 <div class="alert info">
 Classification: <span style="color:#0c0;">Open World</span><br>
-Worldcode: W-604-WRB
+Frequency: 264.8017
 </div>
 
 ## Abstract
