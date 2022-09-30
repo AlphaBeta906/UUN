@@ -1,7 +1,6 @@
 ---
 title: Documents
 layout: layouts/docs.njk
-permalink: /docs/
 ---
 <nav class="breadcrumb">
     <ul>
