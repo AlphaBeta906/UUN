@@ -15,7 +15,7 @@ tags:
 
 <div class="alert info">
 Classification: <span style="color:#0c0;">Open World</span><br>
-Frequency: 264.8017
+Frequency: 301.7384
 </div>
 
 ## Abstract
