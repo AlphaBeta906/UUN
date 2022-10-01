@@ -11,8 +11,21 @@
             <h1>United Universal Nations Documents - World</h1>
             <hr>
         </center>
-        <div span="padding:20px">
+        <div>
             {{ content | safe }}
         </div>
     </body>
+    <script>
+        function passcode() {
+            document.getElementById("1").innerHTML = "██████████";
+            document.getElementById("1").style.background = "#e1e1e1";
+            document.getElementById("2").style.display = "block";
+        }
+
+        function myFunction() {
+            document.getElementById("2a").innerHTML = "Passcode autofilled.";
+            document.getElementById("2a").style.background = "#e1e1e1";
+            document.getElementById("content").style.display = "block";
+        }
+    </script>
 </html>
