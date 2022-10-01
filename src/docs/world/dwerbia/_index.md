@@ -26,8 +26,11 @@ Frequency: [REDACTED]
 ## Abstract
 **Darker Werbia** is an alternate timeline of <a href="/docs/world/werbia/">Werbia</a>; if it branched from Werbia is unknown. The world was found on September 4th, 1998; research started on December 23rd, 1998, and ended on February 7th, 1999.
 
-On May 17th, 2000, a television hijacking was successfully attempted by Ikrayi, one of the nations central to Darker Werbia. The content of the message was a threat to bomb the UUN headquarters in Aztrax, Werbia, The Darkest World and Alphat respectively, with the end showing a list of frequencies.
+On May 17th, 2000, a television hijacking was successfully attempted by Ikrayi, one of the nations central to Darker Werbia. The content of the message was a threat to bomb the UUN headquarters in Aztrax, Werbia, The Darkest World, Ralphat and Alphat respectively, with the end showing a list of frequencies.
 
-On May 21st, 2000, the UUN headquarters in Alphat exploded, with twenty-seven people injured and three deaths. Ikrayi terrorists[^1] attempted to bomb Werbia, however the building was evacuated.
+On May 1st, 2000, the UUN headquarters in Alphat exploded, with twenty-seven people injured and three deaths. Ikrayi terrorists[^1] attempted to bomb Werbia, however the building was evacuated.
+
+<hr>
+<a href="/docs/world/dwerbia/transcript-1">➥ Kelais Update 1></a>
 
 [^1]: Terrorism is defined as the use of violence to achieve ideological or theological means

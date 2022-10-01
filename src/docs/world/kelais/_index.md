@@ -38,6 +38,6 @@ Yibble is the primary base of operations of the Kelais Research Team. It is next
 Samarin is a village in the desert of Mastistan, with it's nearest city being Nottelocale, and is the base of operations for GPS, map data and other satellites. Samarin does not speak Anglese, only having an elder who knows basic Anglese.
 
 <hr>
-<a href="/docs/world/kelais/update-1" style="font-weight: bolder;">➥ Kelais Update 1</a>
+<a href="/docs/world/kelais/update-1">➥ Kelais Update 1</a>
 
 [^1]: The name "kelais" is the name for their planet.
