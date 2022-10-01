@@ -31,6 +31,6 @@ On May 17th, 2000, a television hijacking was successfully attempted by Ikrayi, 
 On May 1st, 2000, the UUN headquarters in Alphat exploded, with twenty-seven people injured and three deaths. Ikrayi terrorists[^1] attempted to bomb Werbia, however the building was evacuated.
 
 <hr>
-<a href="/docs/world/dwerbia/transcript-1">➥ Kelais Update 1></a>
+<a href="/docs/world/dwerbia/transcript-1">➥ Kelais Update 1</a>
 
 [^1]: Terrorism is defined as the use of violence to achieve ideological or theological means
