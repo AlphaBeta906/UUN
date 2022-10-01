@@ -15,7 +15,7 @@ tags:
 <hr>
 
 <div class="alert danger">
-The world is actively hostile towards the UUN. Please do try to contact or travel to Darker Werbia, especially Ikrayi, as they have been shown to engage in terrorism.
+The world is actively hostile towards the UUN. Please do not try to contact or travel to Darker Werbia, especially Ikrayi, as they have been shown to engage in terrorism.
 </div>
 
 <div class="alert info">
