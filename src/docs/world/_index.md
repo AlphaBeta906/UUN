@@ -14,19 +14,19 @@ permalink: /docs/world/
 ## Worlds
 <ul>
     <li>
-        <a href="/docs/world/alphat/" style="color:#0c0;">Alphat</a> <img style="vertical-align:middle;" src="/assets/img/stub.svg" width="20px"/>
+        <a href="/docs/world/alphat/" style="color:#0c0;">Alphat</a> <img style="vertical-align:middle;" src="/assets/img/stub.svg" width="20px" alt="stub"/>
     </li>
     <li>
-        <a href="/docs/world/aztrax/" style="color:#0c0;">Aztrax</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px"/>
+        <a href="/docs/world/aztrax/" style="color:#0c0;">Aztrax</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px" alt="not_created"/>
     </li>
     <li>
         <a href="/docs/world/werbia/" style="color:#0c0;">Werbia</a>
     </li>
     <li>
-        <a href="/docs/world/tdw/" style="color:#0c0;">The Darkest World</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px"/>
+        <a href="/docs/world/tdw/" style="color:#0c0;">The Darkest World</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px" alt="not_created"/>
     </li>
     <li>
-        <a href="/docs/world/ralphat/" style="color:green;">Ralphat</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px"/>
+        <a href="/docs/world/ralphat/" style="color:green;">Ralphat</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px" alt="not_created"/>
     </li>
 </ul>
 
@@ -36,6 +36,6 @@ permalink: /docs/world/
         <a href="/docs/world/kelais/" style="color:orange;">Kelais</a>
     </li>
     <li>
-        <a href="/docs/world/mitnavner/" style="color:orange;">Mitnavner</a> <img style="vertical-align:middle;" src="/assets/img/stub.svg" width="20px"/>
+        <a href="/docs/world/mitnavner/" style="color:orange;">Mitnavner</a> <img style="vertical-align:middle;" src="/assets/img/stub.svg" width="20px" alt="stub"/>
     </li>
 </ul>
