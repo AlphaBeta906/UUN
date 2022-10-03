@@ -5,7 +5,6 @@ let markdownIt = require("markdown-it");
 let markdownItFootnote = require("markdown-it-footnote");
 let markdownItAnchor = require("markdown-it-anchor");
 let markdownItTOC = require("markdown-it-table-of-contents");
-const outdent = require('outdent');
 const slinkity = require('slinkity')
 const svelte = require('@slinkity/renderer-svelte')
 
@@ -25,7 +24,7 @@ module.exports = config => {
     }))
 
     config.addPassthroughCopy('./src/assets/')
-    config.addPassthroughCopy('./src/js/')
+    config.addPassthroughCopy('./src/search-index.json/')
 
     config.addFilter("search", searchFilter);
 
@@ -36,8 +35,6 @@ module.exports = config => {
     config.setBrowserSyncConfig({
 		files: './_site/css/**/*.css'
 	});
-    
-    config.addFilter("search", searchFilter);
 
     // for --serve
     config.setBrowserSyncConfig({
