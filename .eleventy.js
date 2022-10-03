@@ -1,10 +1,13 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const fs = require("fs");
 let markdownIt = require("markdown-it");
 let markdownItFootnote = require("markdown-it-footnote");
 let markdownItAnchor = require("markdown-it-anchor");
 let markdownItTOC = require("markdown-it-table-of-contents");
 const outdent = require('outdent');
+const slinkity = require('slinkity')
+const svelte = require('@slinkity/renderer-svelte')
 
 const searchFilter = require("./src/filters/searchFilter");
 
@@ -16,6 +19,10 @@ module.exports = config => {
     };
 
     config.addPlugin(eleventyNavigationPlugin);
+    config.addPlugin(EleventyRenderPlugin);
+    config.addPlugin(slinkity.plugin, slinkity.defineConfig({
+        renderers: [svelte],
+    }))
 
     config.addPassthroughCopy('./src/assets/')
     config.addPassthroughCopy('./src/js/')
@@ -49,38 +56,6 @@ module.exports = config => {
         ui: false,
         ghostMode: false
     });
-
-    // SHORTCODES UQHSUHSUH
-
-    const customShortcode = (children) => {
-        const content = markdownLib.render(children);
-
-        return outdent`
-        <div class="alert info">
-            <div style="padding: 5px;">This page is only available for Level 3 security clearance holders; please enter valid credentials to access the page.</div>
-            <div style="padding: 10px;">
-                <div id="1" style="border: 2px solid black; border-radius: 10px; padding: 5px; width: 25%; background: white; color: gray;" onclick="passcode()">
-                    Enter your username
-                </div>
-            </div>
-            <div id="2" style="font-weight: bold; display: none; padding: 10px;">
-                <div id="2a" style="border: 2px solid black; border-radius: 10px; padding: 5px; width: 25%; background: white; color: gray;" onclick="myFunction()">
-                    Enter your passcode
-                </div>
-            </div>
-        </div>
-        
-        <div id="content" style="display: none;">
-            <p style="font-weight: bold;">
-                Welcome, ██████████!
-            </p>
-            <hr>
-            ${content}
-        </div>
-        `
-    }
-
-    config.addPairedShortcode('pass', (arg) => `${customShortcode(arg)}`);
 
     let markdownLib =  markdownIt(options)
         .use(markdownItFootnote)
