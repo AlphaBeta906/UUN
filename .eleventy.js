@@ -24,7 +24,6 @@ module.exports = config => {
     }))
 
     config.addPassthroughCopy('./src/assets/')
-    config.addPassthroughCopy('./src/search-index.json/')
 
     config.addFilter("search", searchFilter);
 
