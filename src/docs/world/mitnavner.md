@@ -20,7 +20,7 @@ This page is protected under C/GAR 0002, which is the Research Espionage Act. An
 </div>
 
 <div class="alert info">
-Classification: <span style="color:orange;">Stage 2 - Research</span><br>
+Classification: <span style="color:#DC582A;">Stage 2 - Research</span><br>
 Frequency: 006.8762
 </div>
 

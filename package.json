@@ -16,6 +16,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.12",
     "elasticlunr": "^0.9.5",
+    "figlet": "^1.5.2",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.5",
     "markdown-it-footnote": "^3.0.3",
