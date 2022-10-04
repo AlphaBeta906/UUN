@@ -1,15 +1,21 @@
+<script context="module">
+    export const frontMatter = {
+        renderWithoutSSR: true,
+    };
+</script>
+
 <script>
     var text1 = "Username";
     var text2 = "Passcode";
 
-    var b1 = "white"
-    var b2 = "white"
+    var b1 = "white";
+    var b2 = "white";
 
-    var d2 = "none"
-    var dc = "none"
+    var d2 = "none";
+    var dc = "none";
 
     function passcode() {
-        text1 = 'Username autofilled.';
+        text1 = "Username autofilled.";
         b1 = "#e1e1e1";
         d2 = "block";
     }
@@ -20,13 +26,6 @@
         dc = "block";
     }
 </script>
-
-<script context="module">
-    export const frontMatter = {
-      hydrate: true,
-    };
-</script>
-  
 
 <div class="alert info">
     <div style="padding: 5px;">
@@ -53,8 +52,10 @@
     </div>
 </div>
 
-<div style='display: {dc};'>
-    <p style="font-weight: bold;">Welcome, <span class="censored">-ACheesyNameHere-</span>!</p>
+<div style="display: {dc};">
+    <p style="font-weight: bold;">
+        Welcome, <span class="censored">-ACheesyNameHere-</span>!
+    </p>
     <hr />
     <slot />
 </div>
