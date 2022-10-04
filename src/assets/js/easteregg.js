@@ -3,29 +3,6 @@ import standard from 'figlet/importable-fonts/Standard.js'
 
 figlet.parseFont('Standard', standard);
 
-/*
-class devtools {
-    constructor() { }
-    static toString() {
-        if (!this.opened) {
-            figlet('Hello World!!', function (err, data) {
-                if (err) {
-                    console.log('Something went wrong...');
-                    console.dir(err);
-                    return;
-                }
-
-                console.log(data);
-
-                console.log(`%c ${data}`, ['color: red', 'font-weight: bold', 'font-family: monospace'].join(';'));
-            });
-        }
-        this.opened = true;
-    }
-}
-*/
-
-
 class devtools {
     constructor() { }
     static async toString() {
