@@ -4,6 +4,7 @@
         <title>{{ title }}</title>
         <link rel="stylesheet" href="{{ '/assets/css/index.css' | url }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     </head>
     <body>
         <center>
@@ -15,17 +16,4 @@
             {{ content | safe }}
         </div>
     </body>
-    <script>
-        function passcode() {
-            document.getElementById("1").innerHTML = "██████████";
-            document.getElementById("1").style.background = "#e1e1e1";
-            document.getElementById("2").style.display = "block";
-        }
-
-        function myFunction() {
-            document.getElementById("2a").innerHTML = "Passcode autofilled.";
-            document.getElementById("2a").style.background = "#e1e1e1";
-            document.getElementById("content").style.display = "block";
-        }
-    </script>
 </html>
