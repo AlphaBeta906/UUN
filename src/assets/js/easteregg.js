@@ -1,7 +1,7 @@
 import figlet from 'figlet'
-import O8 from 'figlet/importable-fonts/O8'
+import Colossal from 'figlet/importable-fonts/Colossal'
 
-figlet.parseFont('Standard', O8);
+figlet.parseFont('Standard', Colossal);
 
 
 figlet.text('UUN', {
@@ -13,10 +13,6 @@ figlet.text('UUN', {
         return;
     }
 
-    console.log(`%c${data}`, ['font-weight: 900', 'font-family: monospace', 'color: #5b92e5'].join(';'));
+    console.log(`%c${data.split("\n").splice(0, (data.split("\n").length - 3)).join("\n")}`, ['font-weight: 900', 'font-family: monospace', 'color: #5b92e5'].join(';'));
     console.log(`Welcome, %c-ACheesyNameHere-`, ['color: black', 'background: black', 'border: 1px solid black'].join(';'));
 });
-
-console.warn = function () { }
-console.error = function () { }
-console.info = function () { }
