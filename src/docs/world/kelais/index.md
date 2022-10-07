@@ -14,7 +14,7 @@ tags:
 </nav>
 <hr>
 <div class="alert danger">
-This page is protected under C/GAR 0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of the UUN, will result in termination.
+This page is protected under C/RES/0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of the UUN, will result in termination.
 </div>
 
 <div class="alert info">

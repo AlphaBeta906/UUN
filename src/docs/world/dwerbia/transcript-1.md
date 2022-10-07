@@ -1,5 +1,5 @@
 ---
-title: Darker Werbia Transcrio5 
+title: Darker Werbia Transcript
 layout: layouts/world.njk
 link-citations: true
 tags:

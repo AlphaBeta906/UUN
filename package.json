@@ -4,9 +4,9 @@
   "description": "a",
   "main": ".eleventy.js",
   "scripts": {
-    "serve:sass": "sass --watch src/assets/css:_site/assets/css && postcss _site/assets/css/index.css --replace --use autoprefixer",
-    "build:sass": "sass src/assets/css:_site/assets/css && postcss _site/assets/css/index.css --replace --use autoprefixer",
-    "serve:eleventy": "eleventy --serve --incremental",
+    "serve:sass": "sass --watch src/assets/css:_site/assets/css && postcss _site/assets/css/index.css --replace",
+    "build:sass": "sass src/assets/css:_site/assets/css && postcss _site/assets/css/index.css --replace",
+    "serve:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "serve": "npm-run-all build:sass --parallel serve:*",
     "build": "npm-run-all build:*"
