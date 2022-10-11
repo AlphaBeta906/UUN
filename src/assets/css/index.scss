@@ -27,6 +27,9 @@
     ol {
         @apply px-5
     }
+    a {
+        @apply text-blue-600 hover:text-blue-900 font-semibold transition-all ease-in-out
+    }
 }
 
 html,
