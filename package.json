@@ -1,7 +1,7 @@
 {
-  "name": "uun2",
+  "name": "uun",
   "version": "1.0.0",
-  "description": "a",
+  "description": "A website created using 11ty, Slinkity, Sass and Tailwind.",
   "main": ".eleventy.js",
   "scripts": {
     "serve:sass": "sass --watch src/assets/css:_site/assets/css && postcss _site/assets/css/index.css --replace",

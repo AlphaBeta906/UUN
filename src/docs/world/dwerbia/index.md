@@ -1,6 +1,6 @@
 ---
 title: World of Darker Werbia
-layout: layouts/world.njk
+layout: layouts/index.njk
 link-citations: true
 tags:
     - Worlds

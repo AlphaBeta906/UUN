@@ -1,6 +1,6 @@
 ---
 title: World of Alphat
-layout: layouts/world.njk
+layout: layouts/index.njk
 tags:
     - Worlds
 ---

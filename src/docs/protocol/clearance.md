@@ -1,6 +1,6 @@
 ---
 title: Clearance Levels
-layout: layouts/protocol.njk
+layout: layouts/index.njk
 tags:
     - Protocols
 ---

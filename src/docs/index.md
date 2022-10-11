@@ -1,6 +1,6 @@
 ---
 title: Documents
-layout: layouts/docs.njk
+layout: layouts/index.njk
 eleventyNavigation:
   key: Docs
   order: 1

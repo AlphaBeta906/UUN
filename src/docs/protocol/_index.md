@@ -1,6 +1,6 @@
 ---
 title: Protocols
-layout: layouts/protocol.njk
+layout: layouts/index.njk
 permalink: /docs/protocol/
 ---
 <nav class="breadcrumb">

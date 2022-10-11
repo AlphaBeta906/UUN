@@ -1,6 +1,6 @@
 ---
 title: World
-layout: layouts/world.njk
+layout: layouts/index.njk
 permalink: /docs/world/
 ---
 <nav class="text-sm breadcrumbs pb-5">

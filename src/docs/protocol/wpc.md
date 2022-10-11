@@ -1,6 +1,6 @@
 ---
 title: World Progression Classification
-layout: layouts/protocol.njk
+layout: layouts/index.njk
 tags:
     - Protocols
 ---

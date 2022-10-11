@@ -1,6 +1,6 @@
 ---
 title: World of Mitnavner
-layout: layouts/world.njk
+layout: layouts/index.njk
 link-citations: true
 tags:
     - Worlds

@@ -1,6 +1,6 @@
 ---
 title: Darker Werbia Peace Negotiations of 2000
-layout: layouts/world.njk
+layout: layouts/index.njk
 link-citations: true
 tags:
     - Posts

@@ -1,6 +1,6 @@
 ---
 title: Kelais Update 1
-layout: layouts/world.njk
+layout: layouts/index.njk
 link-citations: true
 tags:
     - Posts
