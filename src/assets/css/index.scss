@@ -1,33 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-3xl font-extrabold
+    }
+    h2 {
+        @apply text-2xl font-bold py-5
+    }
+    h3 {
+        @apply text-xl font-bold py-5
+    }
+    h4 {
+        @apply text-lg font-bold py-5
+    }
+    h5 {
+        @apply text-base
+    }
+    h6 {
+        @apply text-sm
+    }
+    blockquote {
+        @apply mx-10
+    }
+    ol {
+        @apply px-5
+    }
+}
+
 html,
 body {
     overflow-x: hidden;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
-a {
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-.breadcrumb {
-    padding: 10px .5rem;
-    font-size: smaller;
-
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    li:not(:last-child)::after {
-        display: inline-block;
-        margin: 0 .25rem;
-        content: "➥";
-        color: #aa2222;
-        font-weight: 800;
-    }
+hr {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .censored {
@@ -36,21 +49,14 @@ a {
     color: black;
 }
 
-.marquee {
-    white-space: nowrap;
-    overflow: hidden;
-    box-sizing: border-box;
-    animation: scroll 15s linear infinite;
-}
-
 .table-of-contents {
     background: #f9f9f9 none repeat scroll 0 0;
-    border: 1px solid #aaa;
     display: table;
     padding: 15px;
     padding-top: 10px;
     width: auto;
     border-radius: 4px;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
 
     ul {
         list-style-type: none;

@@ -7,14 +7,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     </head>
     <body>
-        <center>
-            <hr>
-            <h1>Documents - World</h1>
-            <hr>
-        </center>
-        <div>
+        {% include "../components/navbar.njk" %}
+        <main class="px-12 py-6">
             {{ content | safe }}
-        </div>
+        </main>
     </body>
     <script type="module" src="/assets/js/easteregg.js"></script>
 </html>

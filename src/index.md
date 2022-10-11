@@ -3,4 +3,6 @@ title: Home
 layout: layouts/index.njk
 ---
 
-Hello!!
+<span class="text-3xl">
+    Hello world!
+  </span>

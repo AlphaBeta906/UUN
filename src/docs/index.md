@@ -1,6 +1,9 @@
 ---
 title: Documents
 layout: layouts/docs.njk
+eleventyNavigation:
+  key: Docs
+  order: 1
 ---
 <nav class="breadcrumb">
     <ul>
