@@ -6,14 +6,13 @@ tags:
     - Worlds
 ---
 
-<nav class="breadcrumb">
+<nav class="text-sm breadcrumbs pb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
         <li><b>Mitnavner</b></li>
     </ul>
 </nav>
-<hr>
 
 <div class="alert danger">
 This page is protected under C/RES/0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of the UUN, will result in termination.

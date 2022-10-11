@@ -3,30 +3,29 @@ title: World
 layout: layouts/world.njk
 permalink: /docs/world/
 ---
-<nav class="breadcrumb">
+<nav class="text-sm breadcrumbs pb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><b>Worlds</b></li>
     </ul>
 </nav>
-<hr>
 
 ## Worlds
 <ul>
     <li>
-        <a href="/docs/world/alphat/" style="color:#0c0;">Alphat</a> <img style="vertical-align:middle;" src="/assets/img/stub.svg" width="20px" alt="stub"/>
+        <a href="/docs/world/alphat/" style="color:#0c0;">Alphat</a> <div class="badge badge-error">NOT AVAILABLE</div>
     </li>
     <li>
-        <a href="/docs/world/aztrax/" style="color:#0c0;">Aztrax</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px" alt="not_created"/>
+        <a href="/docs/world/aztrax/" style="color:#0c0;">Aztrax</a> <div class="badge badge-error">NOT AVAILABLE</div>
     </li>
     <li>
         <a href="/docs/world/werbia/" style="color:#0c0;">Werbia</a>
     </li>
     <li>
-        <a href="/docs/world/tdw/" style="color:#0c0;">The Darkest World</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px" alt="not_created"/>
+        <a href="/docs/world/tdw/" style="color:#0c0;">The Darkest World</a> <div class="badge badge-error">NOT AVAILABLE</div>
     </li>
     <li>
-        <a href="/docs/world/ralphat/" style="color:green;">Ralphat</a> <img style="vertical-align:middle;" src="/assets/img/not_created.svg" width="20px" alt="not_created"/>
+        <a href="/docs/world/ralphat/" style="color:green;">Ralphat</a> <div class="badge badge-error">NOT AVAILABLE</div>
     </li>
 </ul>
 
@@ -36,6 +35,6 @@ permalink: /docs/world/
         <a href="/docs/world/kelais/" style="color:orange;">Kelais</a>
     </li>
     <li>
-        <a href="/docs/world/mitnavner/" style="color:orange;">Mitnavner</a> <img style="vertical-align:middle;" src="/assets/img/stub.svg" width="20px" alt="stub"/>
+        <a href="/docs/world/mitnavner/" style="color:orange;">Mitnavner</a> <div class="badge badge-warning">WORK IN PROGRESS</div>
     </li>
 </ul>
