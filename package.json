@@ -6,8 +6,8 @@
   "scripts": {
     "serve:sass": "sass --watch src/assets/css:_site/assets/css && postcss _site/assets/css/index.css --replace",
     "build:sass": "sass src/assets/css:_site/assets/css && postcss _site/assets/css/index.css --replace",
-    "serve:eleventy": "slinkity --serve",
-    "build:eleventy": "slinkity",
+    "serve:eleventy": "eleventy --serve",
+    "build:eleventy": "eleventy",
     "serve": "npm-run-all build:sass --parallel serve:*",
     "build": "npm-run-all build:*"
   },
