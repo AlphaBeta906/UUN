@@ -13,19 +13,19 @@ permalink: /docs/world/
 ## Worlds
 <ul>
     <li>
-        <a href="/docs/world/alphat/" style="color:#0c0;">Alphat</a> <div class="badge badge-error">NOT AVAILABLE</div>
+        <a href="/docs/world/alphat/" style="color:#0c0;">Alphat</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
     </li>
     <li>
-        <a href="/docs/world/aztrax/" style="color:#0c0;">Aztrax</a> <div class="badge badge-error">NOT AVAILABLE</div>
+        <a href="/docs/world/aztrax/" style="color:#0c0;">Aztrax</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
     </li>
     <li>
         <a href="/docs/world/werbia/" style="color:#0c0;">Werbia</a>
     </li>
     <li>
-        <a href="/docs/world/tdw/" style="color:#0c0;">The Darkest World</a> <div class="badge badge-error">NOT AVAILABLE</div>
+        <a href="/docs/world/tdw/" style="color:#0c0;">The Darkest World</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
     </li>
     <li>
-        <a href="/docs/world/ralphat/" style="color:green;">Ralphat</a> <div class="badge badge-error">NOT AVAILABLE</div>
+        <a href="/docs/world/ralphat/" style="color:green;">Ralphat</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
     </li>
 </ul>
 
@@ -35,6 +35,6 @@ permalink: /docs/world/
         <a href="/docs/world/kelais/" style="color:orange;">Kelais</a>
     </li>
     <li>
-        <a href="/docs/world/mitnavner/" style="color:orange;">Mitnavner</a> <div class="badge badge-warning">WORK IN PROGRESS</div>
+        <a href="/docs/world/mitnavner/" style="color:orange;">Mitnavner</a> <div class="badge badge-warning font-extrabold">WORK IN PROGRESS</div>
     </li>
 </ul>

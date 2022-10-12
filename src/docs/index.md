@@ -5,13 +5,18 @@ eleventyNavigation:
   key: Docs
   order: 1
 ---
-<nav class="breadcrumb">
+<nav class="text-sm breadcrumbs pb-5">
     <ul>
         <li><b>Documents</b></li>
     </ul>
 </nav>
-<hr>
 
 ## Portals
-- <a href="/docs/protocol/">Protocols</a>
-- <a href="/docs/world/">Worlds</a>
+<ul>
+    <li>
+        <a href="/docs/protocol/">Protocols</a>
+    </li>
+    <li>
+        <a href="/docs/world/">Worlds</a>
+    </li>
+</ul>

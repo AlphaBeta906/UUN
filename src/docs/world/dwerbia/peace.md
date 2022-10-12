@@ -6,7 +6,7 @@ tags:
     - Posts
 ---
 
-<nav class="breadcrumb">
+<nav class="text-sm breadcrumbs pb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
@@ -14,7 +14,15 @@ tags:
         <li><b>Darker Werbia Peace Negotiations of 2000</b></li>
     </ul>
 </nav>
-<hr>
+
+<div class="alert alert-error shadow-lg">
+    <div>
+        {% include "warning.njk" %}
+        <span>
+        The world is actively hostile towards the UUN. Please do not try to contact or travel to Darker Werbia, especially Ikrayi, as they have been shown to engage in terrorism.
+        </span>
+    </div>
+</div>
 
 ## Abstract
 

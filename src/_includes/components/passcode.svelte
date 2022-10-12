@@ -27,28 +27,30 @@
     }
 </script>
 
-<div class="alert info">
-    <div style="padding: 5px;">
-        This page is only available for Level 3 security clearance holders;
-        please enter valid credentials to access the page.
-    </div>
+<div class="alert shadow-lg">
+    <div>
+        <span>
+            This page is only available for Level 3 security clearance holders;
+            please enter valid credentials to access the page.
 
-    <div style="padding: 10px;">
-        <div
-            id="1"
-            style="border: 2px solid black; border-radius: 10px; padding: 5px; width: 25%; background: {b1}; color: gray;"
-            on:click={passcode}
-        >
-            {text1}
-        </div>
-    </div>
-    <div style="font-weight: bold; display: {d2}; padding: 10px;">
-        <div
-            style="border: 2px solid black; border-radius: 10px; padding: 5px; width: 25%; background: {b2}; color: gray;"
-            on:click={myFunction}
-        >
-            {text2}
-        </div>
+            <div style="padding: 10px;">
+                <div
+                    id="1"
+                    style="border: 2px solid black; border-radius: 10px; padding: 5px; width: 25%; background: {b1}; color: gray;"
+                    on:click={passcode}
+                >
+                    {text1}
+                </div>
+            </div>
+            <div style="font-weight: bold; display: {d2}; padding: 10px;">
+                <div
+                    style="border: 2px solid black; border-radius: 10px; padding: 5px; width: 25%; background: {b2}; color: gray;"
+                    on:click={myFunction}
+                >
+                    {text2}
+                </div>
+            </div>
+        </span>
     </div>
 </div>
 

@@ -4,18 +4,22 @@ layout: layouts/index.njk
 tags:
     - Worlds
 ---
-<nav class="breadcrumb">
+<nav class="text-sm breadcrumbs pb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
         <li><b>Werbia</b></li>
     </ul>
 </nav>
-<hr>
 
-<div class="alert info">
-Classification: <span style="color:#0c0;">Open World</span><br>
-Frequency: 301.7384
+<div class="alert shadow-lg">
+    <div>
+        {% include "info.njk" %}
+        <span>
+        Classification: <span class="text-green-500">Open World</span><br>
+        Frequency: 301.7384
+        </span>
+    </div>
 </div>
 
 ## Abstract

@@ -4,14 +4,13 @@ layout: layouts/index.njk
 tags:
     - Protocols
 ---
-<nav class="breadcrumb">
+<nav class="text-sm breadcrumbs pb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/protocol">Protocols</a></li>
         <li><b>Clearance Levels</b></li>
     </ul>
 </nav>
-<hr>
 
 All members of the UUN are given access to official documents and data to help them further their research. However, some documents are too sensitive and confidential that abuse of that information might be caused without proper clearance.
 

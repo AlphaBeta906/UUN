@@ -14,17 +14,32 @@ tags:
     </ul>
 </nav>
 
-<div class="alert danger">
-This page is protected under C/RES/0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of the UUN, will result in termination.
+<div class="alert alert-error shadow-lg">
+    <div>
+        {% include "warning.njk" %}
+        <span>
+            This page is protected under C/RES/0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of the UUN, will result in termination.
+        </span>
+    </div>
 </div>
 
-<div class="alert warning">
-Please be advised that Mitnavner has a higher concentration of argon than usual conditions. Exposure to argon can irritate the eyes. It is required for people by the UUN to wear special masks and glasses to prevent this condition.
+<div class="alert alert-warning shadow-lg">
+    <div>
+        {% include "warning.njk" %}
+        <span>
+            Please be advised that Mitnavner has a higher concentration of argon than usual conditions. Exposure to argon can irritate the eyes. It is required for people by the UUN to wear special masks and glasses to prevent this condition.
+        </span>
+    </div>
 </div>
 
-<div class="alert info">
-Classification: <span style="color:#DC582A;">Stage 2 - Research</span><br>
-Frequency: 006.8762
+<div class="alert shadow-lg">
+    <div>
+        {% include "info.njk" %}
+        <span>
+            Classification: <span class="text-orange-500">Stage 2 - In Research</span><br>
+            Frequency: 006.8762
+        </span>
+    </div>
 </div>
 
 ## Abstract
@@ -33,5 +48,13 @@ The **World of Mitnavner** is a world in the A8 Cluster. It was disovered in Jan
 ## Locations
 
 ### Lake Tilmar
-<div class="alert warning">Please be advised that the worldport leading to the site in Samarin is unstable, usage of the worldport may lead to death if the worldport closes. Please use the worldport with risk, and only when needed.</div>
+<div class="alert alert-warning shadow-lg">
+    <div>
+        {% include "warning.njk" %}
+        <span>
+        Please be advised that the worldport leading to the site in Lake Tilmar is unstable, usage of the worldport may lead to death if the worldport closes. Please use the worldport with risk, and only when needed.
+        </span>
+    </div>
+</div>
+
 Lake Tilmar is a lake with floating houses, and some islands.

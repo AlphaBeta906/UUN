@@ -3,13 +3,12 @@ title: Protocols
 layout: layouts/index.njk
 permalink: /docs/protocol/
 ---
-<nav class="breadcrumb">
+<nav class="text-sm breadcrumbs pb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><b>Protocols</b></li>
     </ul>
 </nav>
-<hr>
 
 ## Classifications
 <ul>
