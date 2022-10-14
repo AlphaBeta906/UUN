@@ -13,6 +13,7 @@ tags:
 </nav>
 
 {% slottedComponent '/components/passcode.svelte' 'hydrate' true %}
+<div class="grid gap-4">
 <div class="alert alert-error shadow-lg">
     <div>
         {% include "warning.njk" %}
@@ -30,6 +31,7 @@ tags:
         Frequency: <span class="censored">091.8871</span>
         </span>
     </div>
+</div>
 </div>
 
 {% renderTemplate 'md' %}

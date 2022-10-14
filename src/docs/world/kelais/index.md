@@ -13,6 +13,7 @@ tags:
     </ul>
 </nav>
 
+<div class="grid gap-4">
 <div class="alert alert-error shadow-lg">
     <div>
         {% include "warning.njk" %}
@@ -31,6 +32,7 @@ tags:
     </span>
     </div>
 </div>
+</div>
 
 [[toc]]
 
@@ -43,7 +45,7 @@ The World of Kelais[^1] is a world in the A8 Cluster. The landform of Kelais is 
 Yibble is the primary base of operations of the Kelais Research Team. It is next to a river, known by them as the "Masta' River," which borders another nation called Mastistan. The locals of Yibble speak English, however they refer to it as Anglese.
 
 ### Samarin
-<div class="alert alert-warning shadow-lg">
+<div class="alert alert-warning shadow-lg mb-4">
 <div>
 {% include "warning.njk" %}
 <span>Please be advised that the worldport leading to the site in Samarin is unstable, usage of the worldport may lead to death if the worldport closes. Please use the worldport with risk, and only when needed.</span></div></div>

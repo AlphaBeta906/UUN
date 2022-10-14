@@ -30,6 +30,9 @@
     a {
         @apply text-blue-600 hover:text-blue-900 font-semibold transition-all ease-in-out
     }
+    p {
+        @apply m-0
+    }
 }
 
 html,
@@ -56,10 +59,10 @@ hr {
     background: #f9f9f9 none repeat scroll 0 0;
     display: table;
     padding: 15px;
-    padding-top: 10px;
-    width: auto;
-    border-radius: 4px;
+    width: min-content;
+    border-radius: 15px;
     filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+    margin-top: 1rem;
 
     ul {
         list-style-type: none;

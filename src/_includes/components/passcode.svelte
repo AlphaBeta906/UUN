@@ -27,13 +27,13 @@
     }
 </script>
 
-<div class="alert shadow-lg">
+<div class="alert shadow-lg mb-4">
     <div>
         <span>
             This page is only available for Level 3 security clearance holders;
             please enter valid credentials to access the page.
 
-            <div style="padding: 10px;">
+            <div style="font-weight: bold; padding: 10px;">
                 <div
                     id="1"
                     style="border: 2px solid black; border-radius: 10px; padding: 5px; width: 25%; background: {b1}; color: gray;"

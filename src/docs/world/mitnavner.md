@@ -14,6 +14,7 @@ tags:
     </ul>
 </nav>
 
+<div class="grid gap-4">
 <div class="alert alert-error shadow-lg">
     <div>
         {% include "warning.njk" %}
@@ -27,7 +28,7 @@ tags:
     <div>
         {% include "warning.njk" %}
         <span>
-            Please be advised that Mitnavner has a higher concentration of argon than usual conditions. Exposure to argon can irritate the eyes. It is required for people by the UUN to wear special masks and glasses to prevent this condition.
+            Please be advised that Mitnavner has a higher concentration of argon than usual conditions. Exposure to argon can irritate the eyes. It is required for people by the UUN to wear special glasses to prevent this condition.
         </span>
     </div>
 </div>
@@ -41,6 +42,7 @@ tags:
         </span>
     </div>
 </div>
+</div>
 
 ## Abstract
 The **World of Mitnavner** is a world in the A8 Cluster. It was disovered in January 6th, 1999 and research started in July 26th, 2002. No known stable worldports located it Mitnavner exist. Mitnavner's atmosphere has a higher concentration of Argon than other worlds, to the extent that UUN researchers are required to wear special glasses to be able to enter Mitnavner, but not too much to replace the oxygen in the atmosphere.
@@ -48,7 +50,7 @@ The **World of Mitnavner** is a world in the A8 Cluster. It was disovered in Jan
 ## Locations
 
 ### Lake Tilmar
-<div class="alert alert-warning shadow-lg">
+<div class="alert alert-warning shadow-lg mb-4">
     <div>
         {% include "warning.njk" %}
         <span>
