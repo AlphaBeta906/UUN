@@ -33,19 +33,26 @@
             This page is only available for Level 3 security clearance holders;
             please enter valid credentials to access the page.
 
-            <div style="font-weight: bold; padding: 10px;">
+            <div class="font-extrabold m-2.5">
                 <div
-                    id="1"
-                    style="border: 2px solid black; border-radius: 10px; padding: 5px; width: 25%; background: {b1}; color: gray;"
+                    class="rounded-lg"
+                    style="padding: 5px; width: 25%; background: {b1}; color: gray;"
                     on:click={passcode}
+                    on:keydown={passcode}
+                    on:keyup={passcode}
+                    on:keypress={passcode}
                 >
                     {text1}
                 </div>
             </div>
-            <div style="font-weight: bold; display: {d2}; padding: 10px;">
+            <div class="font-extrabold m-2.5" style="display: {d2};">
                 <div
-                    style="border: 2px solid black; border-radius: 10px; padding: 5px; width: 25%; background: {b2}; color: gray;"
+                    class="rounded-lg"
+                    style="padding: 5px; width: 25%; background: {b2}; color: gray;"
                     on:click={myFunction}
+                    on:keydown={myFunction}
+                    on:keyup={myFunction}
+                    on:keypress={myFunction}
                 >
                     {text2}
                 </div>
