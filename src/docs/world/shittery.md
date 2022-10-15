@@ -27,8 +27,8 @@ tags:
     <div>
         {% include "info.njk" %}
         <span>
-        Classification: <span class="text-red-800">Stage 0a - Hazardous</span><br>
-        Frequency: <span class="censored">091.8871</span>
+        <b>Classification:</b> <span class="text-red-800">Stage 0a - Hazardous</span><br>
+        <b>Frequency:</b> <span class="censored">091.8871</span>
         </span>
     </div>
 </div>

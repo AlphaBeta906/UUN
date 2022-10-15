@@ -15,7 +15,7 @@ tags:
     </ul>
 </nav>
 
-<div class="alert alert-error shadow-lg">
+<div class="alert alert-error shadow-lg mb-4">
     <div>
         {% include "warning.njk" %}
         <span>

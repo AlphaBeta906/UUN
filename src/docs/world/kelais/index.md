@@ -27,8 +27,8 @@ tags:
     <div>
     {% include "info.njk" %}
     <span>
-        Classification: <span class="text-orange-500">Stage 2 - In Research</span><br>
-        Frequency: 087.9971
+        <b>Classification:</b> <span class="text-orange-500">Stage 2 - In Research</span><br>
+        <b>Frequency:</b> 087.9971
     </span>
     </div>
 </div>

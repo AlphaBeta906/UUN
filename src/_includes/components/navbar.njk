@@ -10,8 +10,8 @@
           <a
            href="{{ entry.url }}"
            class="uppercase text-sm py-1 px-2 rounded mr-4 inline-block
-           {{'font-extrabold text-black hover:text-black ' if entry.url in page.url
-           else 'text-gray-600 hover:text-gray-900 hover:font-extrabold transition-[font-weight] ease-in-out'}}">
+           {{'font-extrabold text-black hover:text-black dark:text-white dark:hover:text-white ' if entry.url in page.url
+           else 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:font-extrabold transition-[font-weight] ease-in-out'}}">
            {{ entry.title }}
          </a>
         </li>

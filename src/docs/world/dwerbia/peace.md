@@ -19,7 +19,7 @@ tags:
     <div>
         {% include "warning.njk" %}
         <span>
-        The world is actively hostile towards the UUN. Please do not try to contact or travel to Darker Werbia, especially Ikrayi, as they have been shown to engage in terrorism.
+        The world is actively hostile towards the UUN. Please do not try to contact or travel to Darker Werbia, especially Ikrayi, as they have been shown to engage in terrorism. If you have any new and potentially worrisome information about Darker Werbia, contact the hotline UUN-172000-001.
         </span>
     </div>
 </div>

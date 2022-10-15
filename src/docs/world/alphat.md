@@ -16,8 +16,8 @@ tags:
     <div>
         {% include "info.njk" %}
         <span>
-            Classification: <span class="text-green-500">Open World</span><br>
-            Frequency: 156.0087
+            <b>Classification:</b> <span class="text-green-500">Open World</span><br>
+            <b>Frequency:</b> 156.0087
         </span>
     </div>
 </div>
