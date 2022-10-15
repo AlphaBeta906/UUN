@@ -57,7 +57,11 @@ module.exports = config => {
 
     let markdownLib =  markdownIt(options)
         .use(markdownItFootnote)
-        .use(markdownItAnchor.default)
+        .use(markdownItAnchor, {
+            permalink: true,
+            permalinkClass: "direct-link",
+            permalinkSymbol: "⚓️"
+        })
         .use(markdownItTOC, {
             "containerHeaderHtml": '<div class="toc-container-header">Contents</div>',
             "includeLevel": [2,3,4]
