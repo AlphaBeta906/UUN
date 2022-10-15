@@ -1,16 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>{{ title }}</title>
-        <link rel="stylesheet" href="{{ '/assets/css/index.css' | url }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    </head>
-    <body>
-        {% include "../components/navbar.njk" %}
-        <main class="px-8 py-6 sm:px-12">
-            {{ content | safe }}
-        </main>
-    </body>
-    <script type="module" src="/assets/js/easteregg.js"></script>
+
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/index.css' | url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body id="bdy">
+    <nav class="flex items-center justify-between flex-wrap px-5 py-3 border-[#5b92e5] border-b-4">
+        <a href="/" class="tracking-tight font-black text-[#5b92e5]">
+            UUN
+        </a>
+
+        {% set navPages = collections.all | eleventyNavigation %}
+        <ul>
+            {% for entry in navPages %}
+            <li class="inline">
+                <a href="{{ entry.url }}"
+                    class="uppercase text-sm py-1 px-2 rounded mr-4 inline-block
+                   {{'font-extrabold text-black hover:text-black dark:text-white dark:hover:text-white ' if entry.url in page.url
+                   else 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:font-extrabold transition-[font-weight] ease-in-out'}}">
+                    {{ entry.title }}
+                </a>
+            </li>
+            {% endfor %}
+            <li class="inline">
+                <button
+                    style="mr-4 align-middle inline-block"
+                    onclick="you()"
+                    data-toggle-theme="dark,light" 
+                    data-act-class="ACTIVECLASS"
+                >
+                    <span id="icon">??</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <main class="px-8 py-6 sm:px-12">
+        {{ content | safe }}
+    </main>
+</body>
+<script type="module" src="/assets/js/easteregg.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+<script>
+
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.getElementById("bdy").classList.add('dark')
+        document.getElementById("icon").innerHTML = "☁️"
+    } else {
+        document.getElementById("bdy").classList.remove('dark')
+        document.getElementById("icon").innerHTML = "☀️"
+    }
+
+    function you() {
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            localStorage.theme = 'light'
+            document.getElementById("bdy").classList.remove('dark')
+            document.getElementById("icon").innerHTML = "☀️"
+        } else {
+            localStorage.theme = 'dark'
+            document.getElementById("bdy").classList.add('dark')
+            document.getElementById("icon").innerHTML = "☁️"
+        }
+    }
+</script>
 </html>
