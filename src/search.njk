@@ -1,16 +1,22 @@
-{% set title = "Search" %}
+---
+title: Search
+layout: layouts/index.njk
+---
 {% block content %}
-  <div class="field">
-    <label for="searchField">Search</label>
-    <input type="search" placeholder="Search..." id="searchField">
-  </div>
-  <ol id="searchResults"></ol>
-  <div id="noResultsFound" style="display: none">
-    <p>No results found.</p>
-  </div>
-  <script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"
-  ></script>
-  <script type="module" src="../assets/js/search.js"></script>
+<div class="form-control w-full max-w-xs">
+  <label class="label">
+    <span class="label-text">Search</span>
+  </label>
+  <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" id="searchField" />
+  <label class="label">
+    <span class="label-text-alt">Powered by <a class="text-red-500" href="https://www.npmjs.com/package/elasticlunr">AlphaSearch by AlphaCorp.</a></span>
+  </label>
+</div>
+<ol class="list-decimal" id="searchResults"></ol>
+<div id="noResultsFound" style="display: none">
+  <p>No results found.</p>
+</div>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+<script type="module" src="../assets/js/search.js"></script>
 {% endblock %}

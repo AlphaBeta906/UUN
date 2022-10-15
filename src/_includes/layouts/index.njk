@@ -20,7 +20,7 @@
             <li class="inline">
                 <a href="{{ entry.url }}"
                     class="uppercase text-sm py-1 px-2 rounded mr-4 inline-block
-                   {{'font-extrabold text-black hover:text-black dark:text-white dark:hover:text-white ' if entry.url in page.url
+                   {{'font-extrabold text-black dark:text-white' if entry.url in page.url
                    else 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:font-extrabold transition-[font-weight] ease-in-out'}}">
                     {{ entry.title }}
                 </a>
@@ -48,7 +48,7 @@
 
     if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.getElementById("bdy").classList.add('dark')
-        document.getElementById("icon").innerHTML = "☁️"
+        document.getElementById("icon").innerHTML = "✨"
     } else {
         document.getElementById("bdy").classList.remove('dark')
         document.getElementById("icon").innerHTML = "☀️"
@@ -62,7 +62,7 @@
         } else {
             localStorage.theme = 'dark'
             document.getElementById("bdy").classList.add('dark')
-            document.getElementById("icon").innerHTML = "☁️"
+            document.getElementById("icon").innerHTML = "✨"
         }
     }
 </script>

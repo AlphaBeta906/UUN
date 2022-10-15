@@ -4,7 +4,7 @@ layout: layouts/index.njk
 tags:
     - Protocols
 ---
-<nav class="breadcrumb">
+<nav class="text-sm breadcrumbs pb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/protocol">Protocols</a></li>
