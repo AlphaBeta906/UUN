@@ -1,28 +1,22 @@
 <script context="module">
-    export const frontMatter = {
-        renderWithoutSSR: true,
-    };
+    export let hydrate = "";
+    export let dark = "";
 </script>
 
 <script>
     var text1 = "Username";
     var text2 = "Passcode";
 
-    var b1 = "#e1e1e1";
-    var b2 = "#e1e1e1";
-
     var d2 = "none";
     var dc = "none";
 
     function passcode() {
         text1 = "Username autofilled.";
-        b1 = "#c1c1c1";
         d2 = "block";
     }
 
     function myFunction() {
         text2 = "Passcode autofilled.";
-        b2 = "#c1c1c1";
         dc = "block";
     }
 </script>
@@ -35,8 +29,7 @@
 
             <div class="font-extrabold m-2.5">
                 <div
-                    class="rounded-lg p-[5px] w-[25%] text-slate-500 border-slate-700 border-4 shadow-lg"
-                    style="background: {b1};"
+                    class="rounded-lg p-[5px] w-[25%] text-black dark:text-white border-yellow-500 border-4 shadow-lg bg-transparent"
                     on:click={passcode}
                     on:keydown={passcode}
                     on:keyup={passcode}
@@ -47,8 +40,7 @@
             </div>
             <div class="font-extrabold m-2.5" style="display: {d2};">
                 <div
-                    class="rounded-lg p-[5px] w-[25%] text-slate-500 border-slate-700 border-4 shadow-lg"
-                    style="background: {b2};"
+                    class="rounded-lg p-[5px] w-[25%] text-black dark:text-white border-yellow-500 border-4 shadow-lg bg-transparent"
                     on:click={myFunction}
                     on:keydown={myFunction}
                     on:keyup={myFunction}
