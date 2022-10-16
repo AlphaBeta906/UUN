@@ -7,8 +7,10 @@
     var text1 = "Username";
     var text2 = "Passcode";
 
-    var d2 = "none";
-    var dc = "none";
+    var d2 = "hidden";
+    var dc = "hidden";
+    var da = "block"
+    var db = "hidden"
 
     function passcode() {
         text1 = "Username autofilled.";
@@ -17,44 +19,49 @@
 
     function myFunction() {
         text2 = "Passcode autofilled.";
-        dc = "block";
+        db = "block";
+    }
+
+    function finalforsureaaaa() {
+        da = "hidden"
+        dc = "block"
     }
 </script>
 
-<div class="alert shadow-lg mb-4">
+<div class="alert shadow-lg mb-4 {da}">
     <div>
         <span>
             This page is only available for Level 3 security clearance holders;
             please enter valid credentials to access the page.
 
-            <div class="font-extrabold m-2.5">
+            <div class="m-2.5">
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
                 <div
-                    class="rounded-lg p-[5px] w-[25%] text-black dark:text-white border-yellow-500 border-4 shadow-lg bg-transparent"
+                    class="h-[3rem] w-full max-w-xs shrink rounded-lg border border-amber-500 dark:border-yellow-500 pl-4 pr-4 text-black shadow-lg dark:text-white flex bg-base-100"
                     on:click={passcode}
-                    on:keydown={passcode}
-                    on:keyup={passcode}
-                    on:keypress={passcode}
                 >
-                    {text1}
+                    <span class="my-auto">{text1}</span>
                 </div>
             </div>
-            <div class="font-extrabold m-2.5" style="display: {d2};">
+            <div class="m-2.5 {d2}">
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
                 <div
-                    class="rounded-lg p-[5px] w-[25%] text-black dark:text-white border-yellow-500 border-4 shadow-lg bg-transparent"
+                    class="h-[3rem] w-full max-w-xs shrink rounded-lg border border-amber-500 dark:border-yellow-500 pl-4 pr-4 text-black shadow-lg dark:text-white flex bg-base-100"
                     on:click={myFunction}
-                    on:keydown={myFunction}
-                    on:keyup={myFunction}
-                    on:keypress={myFunction}
                 >
-                    {text2}
+                    <span class="my-auto">{text2}</span>
                 </div>
+            </div>
+
+            <div class="{db} m-2.5 mt-3.5">
+                <button class="btn btn-primary" on:click={finalforsureaaaa}>Submit</button>
             </div>
         </span>
     </div>
 </div>
 
-<div style="display: {dc};">
-    <p style="font-weight: bold;">
+<div class="{dc}">
+    <p class="font-bold">
         Welcome, <span class="censored">-ACheesyNameHere-</span>!
     </p>
     <hr />

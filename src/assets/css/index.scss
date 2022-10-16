@@ -33,16 +33,19 @@
     ul {
         @apply list-disc list-inside
     }
+    hr {
+        @apply dark:border-white border-black border-4 my-4 rounded-lg
+    }
+}
+
+.breadcrumbs > ul > li > a {
+    @apply hover:no-underline;
 }
 
 html,
 body {
     overflow-x: hidden;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
-
-hr {
-    @apply border-base-300 border-4 my-4 rounded-lg
 }
 
 .censored {
