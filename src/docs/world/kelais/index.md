@@ -37,10 +37,12 @@ tags:
 [[toc]]
 
 ## Abstract
-<a style="float: left; margin-right: 20px;" href="/assets/img/Mastistan_map.png">
-<img src="/assets/img/Mastistan_map.png" alt="Mastistan map" style="width: 150px; height: auto;" />
-<figcaption>Map of Mastistan</figcaption>
+<figure class="float-left mr-[20px] w-[200px]">
+<a href="/assets/img/Mastistan_map.png">
+<img class="h-[150px] w-auto" src="/assets/img/Mastistan_map.png" alt="Mastistan map" />
 </a>
+<figcaption class="text-slate-700 dark:text-slate-300 break-normal">Map of Mastistan (current stations as of September 2002 are marked in red)</figcaption>
+</figure>
 
 The World of Kelais[^1] is a world in the A8 Cluster. The landform of Kelais is mostly made of peninsula and few island nations. It was discovered in January 6th, 1999, and research started in 2002. There are human-like peoples living in the regions that we surveyed. The air being tested as livable.<br><br>
 
