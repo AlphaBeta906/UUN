@@ -89,3 +89,7 @@ hr {
     font-size: larger;
     padding: 5px;
 }
+
+.direct-link {
+    @apply link link-hover
+}

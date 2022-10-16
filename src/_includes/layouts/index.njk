@@ -8,39 +8,41 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 
-<body id="bdy" class="transition-all ease-in-out">
-    <nav class="flex items-center justify-between flex-wrap px-5 py-3 border-[#5b92e5] border-b-4">
-        <a href="/" class="tracking-tight font-black text-[#5b92e5]">
-            UUN
-        </a>
+<body id="bdy" class="transition-all ease-in-out min-h-[100vh] flex flex-col justify-between">
+    {% set navPages = collections.all | eleventyNavigation %}
 
-        {% set navPages = collections.all | eleventyNavigation %}
-        <ul>
-            {% for entry in navPages %}
-            <li class="inline">
-                <a href="{{ entry.url }}"
-                    class="uppercase text-sm py-1 px-2 rounded mr-4 inline-block
-                   {{'font-extrabold text-black dark:text-white' if entry.url in page.url
-                   else 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:font-extrabold transition-[font-weight] ease-in-out'}}">
-                    {{ entry.title }}
-                </a>
-            </li>
-            {% endfor %}
-            <li class="inline">
-                <button
-                    style="mr-4 text-sm py-1 px-2 rounded"
-                    onclick="you()"
-                    data-toggle-theme="dark,light" 
-                    data-act-class="ACTIVECLASS"
-                >
-                    <span id="icon">??</span>
-                </button>
-            </li>
-        </ul>
-    </nav>
-    <main class="px-8 py-6 sm:px-12">
-        {{ content | safe }}
-    </main>
+    <div>
+        <nav class="navbar bg-base-300">
+            <div class="flex-1">
+                <a class="btn btn-ghost normal-case text-xl" href="/">UUN</a>
+            </div>
+            <div class="flex-none">
+                <ul class="menu menu-horizontal p-0">
+                    {% for entry in navPages %}
+                    <li>
+                        <a href="{{ entry.url }}" class="btn btn-ghost">
+                            {{ entry.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                    <li>
+                        <button style="mr-4 text-sm py-1 px-2 rounded" onclick="you()" data-toggle-theme="dark,light"
+                            data-act-class="ACTIVECLASS">
+                            <span id="icon">??</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="px-8 py-6 sm:px-12">
+            {{ content | safe }}
+        </main>
+    </div>
+    <footer class="footer footer-center p-4 bg-base-300 text-base-content">
+        <div>
+            <p>Provided by the United Universal Nations.</p>
+        </div>
+    </footer>
 </body>
 <script type="module" src="/assets/js/easteregg.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
@@ -66,4 +68,5 @@
         }
     }
 </script>
+
 </html>
