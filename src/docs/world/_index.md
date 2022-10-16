@@ -13,28 +13,28 @@ permalink: /docs/world/
 ## Worlds
 <ul>
     <li>
-        <a href="/docs/world/alphat/" style="color:#0c0;">Alphat</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
+        <a href="/docs/world/alphat/" class="text-green-500">Alphat</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
     </li>
     <li>
-        <a href="/docs/world/aztrax/" style="color:#0c0;">Aztrax</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
+        <a href="/docs/world/aztrax/" class="text-green-500">Aztrax</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
     </li>
     <li>
-        <a href="/docs/world/werbia/" style="color:#0c0;">Werbia</a>
+        <a href="/docs/world/werbia/" class="text-green-500">Werbia</a>
     </li>
     <li>
-        <a href="/docs/world/tdw/" style="color:#0c0;">The Darkest World</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
+        <a href="/docs/world/tdw/" class="text-green-500">The Darkest World</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
     </li>
     <li>
-        <a href="/docs/world/ralphat/" style="color:green;">Ralphat</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
+        <a href="/docs/world/ralphat/" class="text-green-600">Ralphat</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
     </li>
 </ul>
 
 ## Worlds in Research
 <ul>
     <li>
-        <a href="/docs/world/kelais/" style="color:orange;">Kelais</a>
+        <a href="/docs/world/kelais/" class="text-orange-500">Kelais</a>
     </li>
     <li>
-        <a href="/docs/world/mitnavner/" style="color:orange;">Mitnavner</a> <div class="badge badge-warning font-extrabold">WORK IN PROGRESS</div>
+        <a href="/docs/world/mitnavner/" class="text-orange-500">Mitnavner</a> <div class="badge badge-warning font-extrabold">WORK IN PROGRESS</div>
     </li>
 </ul>
