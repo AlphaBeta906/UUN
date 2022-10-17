@@ -2,6 +2,9 @@
 title: Protocols
 layout: layouts/index.njk
 permalink: /docs/protocol/
+tags:
+    - Navigation
+    - Protocol
 ---
 <nav class="text-sm breadcrumbs pb-5">
     <ul>

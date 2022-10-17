@@ -2,7 +2,7 @@
 title: World of Werbia
 layout: layouts/index.njk
 tags:
-    - Worlds
+    - World
 ---
 <nav class="text-sm breadcrumbs pb-5">
     <ul>
@@ -23,4 +23,11 @@ tags:
 </div>
 
 ## Abstract
+<figure class="float-left mr-[20px] w-[200px]">
+<a href="/assets/img/Werbia_map.png">
+<img class="h-[200px] w-auto" src="/assets/img/Werbia_map.png" alt="Mastistan map" />
+</a>
+<figcaption class="text-slate-700 dark:text-slate-300 break-normal">Political map of Werbia</figcaption>
+</figure>
+
 The **World of Werbia**, formerly known as the **World of Sundir** during 1985-1994 is a world in the B2 Cluster.

@@ -3,7 +3,7 @@ title: World of Darker Werbia
 layout: layouts/index.njk
 link-citations: true
 tags:
-    - Worlds
+    - World
 ---
 <nav class="text-sm breadcrumbs pb-5">
     <ul>
@@ -43,7 +43,7 @@ On May 1st, 2000, the UUN headquarters in Alphat exploded during evacuation, wit
 
 Peace negotiations ended started on May 5th, 2000, and ended on May 21st, 2000, with no agreements. On July 9th, 2000, by direct order initiated by S/RES/0007, a special military operation.
 
-<hr>
+<div class="divider"></div> 
 <a href="/docs/world/dwerbia/transcript-1">➥ Transcript 1</a>
 
 [^1]: Terrorism is defined as the use of violence to achieve ideological or theological means

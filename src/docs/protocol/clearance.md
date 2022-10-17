@@ -2,7 +2,7 @@
 title: Clearance Levels
 layout: layouts/index.njk
 tags:
-    - Protocols
+    - Protocol
 ---
 <nav class="text-sm breadcrumbs pb-5">
     <ul>

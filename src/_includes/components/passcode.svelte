@@ -64,6 +64,6 @@
     <p class="font-bold">
         Welcome, <span class="censored">-ACheesyNameHere-</span>!
     </p>
-    <hr />
+    <div class="divider"></div> 
     <slot />
 </div>

@@ -3,7 +3,7 @@ title: Kelais Update 1
 layout: layouts/index.njk
 link-citations: true
 tags:
-    - Posts
+    - Post
 ---
 
 <nav class="text-sm breadcrumbs pb-5">

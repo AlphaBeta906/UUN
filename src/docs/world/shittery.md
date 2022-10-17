@@ -2,7 +2,7 @@
 title: World of Shittery
 layout: layouts/index.njk
 tags:
-    - Worlds
+    - World
 ---
 <nav class="text-sm breadcrumbs pb-5">
     <ul>

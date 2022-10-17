@@ -3,7 +3,7 @@ title: Darker Werbia Transcript
 layout: layouts/index.njk
 link-citations: true
 tags:
-    - Posts
+    - Post
 ---
 
 <nav class="text-sm breadcrumbs pb-5">

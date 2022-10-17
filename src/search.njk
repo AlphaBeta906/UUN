@@ -14,7 +14,24 @@ eleventyNavigation:
   <label class="label">
     <span class="label-text-alt">Powered by <a class="text-red-500" href="https://www.npmjs.com/package/elasticlunr">AlphaSearch by AlphaCorp.</a></span>
   </label>
+  <label class="label cursor-pointer">
+    <span class="label-text">Worlds</span> 
+    <input type="checkbox" class="toggle" id="world" checked />
+  </label>
+  <label class="label cursor-pointer">
+    <span class="label-text">Posts</span> 
+    <input type="checkbox" class="toggle" id="post" checked />
+  </label>
+  <label class="label cursor-pointer">
+    <span class="label-text">Protocols</span> 
+    <input type="checkbox" class="toggle" id="protocol" checked />
+  </label>
+  <label class="label cursor-pointer">
+    <span class="label-text">Navigation</span> 
+    <input type="checkbox" class="toggle" id="navigation" checked />
+  </label>
 </div>
+<div class="divider"></div> 
 <ol class="list-decimal" id="searchResults"></ol>
 <div id="noResultsFound" style="display: none">
   <p>No results found.</p>

@@ -3,7 +3,7 @@ title: World of Mitnavner
 layout: layouts/index.njk
 link-citations: true
 tags:
-    - Worlds
+    - World
 ---
 
 <nav class="text-sm breadcrumbs pb-5">

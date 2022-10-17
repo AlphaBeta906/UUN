@@ -1,7 +1,10 @@
 ---
-title: World
+title: Worlds
 layout: layouts/index.njk
 permalink: /docs/world/
+tags: 
+    - Navigation
+    - World
 ---
 <nav class="text-sm breadcrumbs pb-5">
     <ul>
