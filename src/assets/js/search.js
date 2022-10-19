@@ -2,10 +2,7 @@
     "use strict";
 
     const search = () => {
-        console.log("-------------")
-
         const e = document.getElementById("searchField").value
-        console.log(e)
 
         const results = window.searchIndex.search(e, {
             bool: "OR",
@@ -26,7 +23,6 @@
             console.log(not_allowed)
 
             if (e.doc.tags.filter(tag => !(not_allowed.includes(tag))).length !== 0) {
-                console.log(e.doc.tags)
                 return true
             }
         });
@@ -35,9 +31,6 @@
         const noResultsEl = document.getElementById("noResultsFound");
 
         resEl.innerHTML = "";
-
-        console.log(results)
-        console.log(results.length !== 0)
 
         if (results.length !== 0 || e.trim() === "") {
             noResultsEl.style.display = "none";
