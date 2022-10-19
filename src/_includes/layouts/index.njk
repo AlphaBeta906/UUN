@@ -8,25 +8,25 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 
-<body id="bdy" class="transition-all ease-in-out min-h-[100vh] flex flex-col justify-between">
+<body id="bdy" class="transition-all ease-in-out min-h-[100vh] w-screen flex flex-col justify-between">
     {% set navPages = collections.all | eleventyNavigation %}
 
     <div>
-        <nav class="navbar bg-base-300">
+        <nav class="navbar bg-base-300 md:flex">
             <div class="flex-1">
-                <a class="btn btn-ghost text-blue-500 dark:text-blue-400 first-letter:normal-case text-xl" href="/">UUN</a>
+                <a class="btn btn-ghost text-blue-500 dark:text-blue-400 text-xs sm:text-xl" href="/">UUN</a>
             </div>
             <div class="flex-none">
-                <ul class="menu menu-horizontal p-0">
+                <ul class="menu p-0 menu-vertical sm:menu-horizontal">
                     {% for entry in navPages %}
                     <li>
-                        <a href="{{ entry.url }}" class="btn btn-ghost hover:no-underline">
+                        <a href="{{ entry.url }}" class="btn btn-ghost hover:no-underline text-black hover:text-black dark:text-white dark:hover:text-blue-200 text-2xs sm:text-base">
                             {{ entry.title }}
                         </a>
                     </li>
                     {% endfor %}
                     <li>
-                        <button class="btn btn-ghost" onclick="you()" data-toggle-theme="dark,light"
+                        <button class="btn btn-ghost" onclick="you()" ndata-toggle-theme="dark,light"
                             data-act-class="ACTIVECLASS">
                             <span id="icon">??</span>
                         </button>
@@ -47,7 +47,6 @@
 <script type="module" src="/assets/js/easteregg.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
 <script>
-
     if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.getElementById("bdy").classList.add('dark')
         document.getElementById("icon").innerHTML = "✨"

@@ -37,8 +37,9 @@
         resEl.innerHTML = "";
 
         console.log(results)
+        console.log(results.length !== 0)
 
-        if (results.length !== 0 || e.value === "") {
+        if (results.length !== 0 || e.trim() === "") {
             noResultsEl.style.display = "none";
             results.map((r) => {
                 const { id, title, description } = r.doc;

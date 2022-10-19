@@ -65,7 +65,11 @@ module.exports = config => {
         .use(markdownItTOC, {
             "containerHeaderHtml": '<div class="toc-container-header">Contents</div>',
             "includeLevel": [2,3,4]
-        });
+        })
+
+        markdownLib.renderer.rules.footnote_block_open = () => (
+            '<div class="divider"></div><section><ol>'
+        )
 
     config.setLibrary("md", markdownLib);
 

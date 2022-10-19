@@ -33,13 +33,14 @@
     ul {
         @apply list-disc list-inside
     }
-    hr {
-        @apply dark:border-white border-black border-4 my-4 rounded-lg
-    }
 }
 
 .breadcrumbs > ul > li > a {
     @apply hover:no-underline;
+}
+
+.alert {
+    @apply items-baseline
 }
 
 html,

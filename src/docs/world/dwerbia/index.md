@@ -27,7 +27,7 @@ tags:
     <div>
         {% include "info.njk" %}
         <span>
-        <b>Classification:</b> <span class="text-red-800">Stage 0b - Hostile Intent</span><br>
+        <b>Classification:</b> <span class="text-slate-500">Gone</span><br>
         <b>Frequency:</b> [REDACTED]
         </span>
     </div>
@@ -41,9 +41,11 @@ On May 17th, 2000, a television hijacking was successfully attempted by Ikrayi, 
 
 On May 1st, 2000, the UUN headquarters in Alphat exploded during evacuation, with twenty-seven people injured and three deaths. Ikrayi terrorists[^1] attempted to bomb Werbia, however the building was evacuated.<br><br>
 
-Peace negotiations ended started on May 5th, 2000, and ended on May 21st, 2000, with no agreements. On July 9th, 2000, by direct order initiated by S/RES/0007, a special military operation.
+Peace negotiations ended started on May 5th, 2000, and ended on May 21st, 2000, with no agreements. On July 2th, 2000, by direct order initiated by S/RES/0007, a special reconnaissance military operation by drones.
 
-<div class="divider"></div> 
+The war between Ikrayi and the UUN started on July 7th, 2000, with multiple insuccesful attempts to nuke major cities on midnight UTC. However, the <a href="/docs/world/dwerbia/error">World of Error</a> appeared June 7th, 2001 00:22:38 UTC and June 7th, 2001 00:23:46 UTC, cutting off connections between Darker Werbia and all worldports.
+
+<hr>
 <a href="/docs/world/dwerbia/transcript-1">➥ Transcript 1</a>
 
 [^1]: Terrorism is defined as the use of violence to achieve ideological or theological means
