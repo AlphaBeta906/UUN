@@ -12,7 +12,7 @@ tags:
     </ul>
 </nav>
 
-The **World Progression Classification** also known as **WPC**, issued by C/GAR 0013, is a classification tool used to designate integration with the UUN.
+The **World Progression Classification** also known as **WPC**, issued by C/GAR/0013, is a classification tool used to designate integration with the UUN.
 
 ## Classes
 - **<span class="text-red-500">Stage 1 - Discovery</span>** - This is newly discovered world. No visits to that world are allowed. Only people who have Level 3 security clearances are allowed to access data of that world.

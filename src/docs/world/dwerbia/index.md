@@ -18,7 +18,7 @@ tags:
     <div>
         {% include "warning.njk" %}
         <span>
-        The world is actively hostile towards the UUN. Please do not try to contact or travel to Darker Werbia, especially Ikrayi, as they have been shown to engage in terrorism. If you have any new and potentially worrisome information about Darker Werbia, contact the hotline UUN-172000-001.
+        The world of Darker Werbia is actively hostile towards the UUN. Please do not try to contact or travel to Darker Werbia, especially Ikrayi, as they have been shown to engage in terrorism. If you have any new and potentially worrisome information about Darker Werbia, contact the hotline UUN-172000-001.
         </span>
     </div>
 </div>
@@ -35,17 +35,15 @@ tags:
 </div>
 
 ## Abstract
-**Darker Werbia** is an alternate timeline of <a href="/docs/world/werbia/">Werbia</a>; if it branched from Werbia is unknown. The world was found on September 4th, 1998; research started on December 23rd, 1998, and ended on February 7th, 1999.<br><br>
+**Darker Werbia** is an world similar to <a href="/docs/world/werbia/">Werbia</a>; if it branched from Werbia is unknown. The world was found on September 4th, 1998; research started on December 23rd, 1998, and ended on February 7th, 1999.<br><br>
 
 On May 17th, 2000, a television hijacking was successfully attempted by Ikrayi, one of the nations central to Darker Werbia. The content of the message was a threat to bomb the UUN headquarters in Aztrax, Werbia, The Darkest World, Ralphat and Alphat respectively, with the end showing a list of frequencies. No action was taken by the UUN however buildings were evacuated.<br><br>
 
 On May 1st, 2000, the UUN headquarters in Alphat exploded during evacuation, with twenty-seven people injured and three deaths. Ikrayi terrorists[^1] attempted to bomb Werbia, however the building was evacuated.<br><br>
 
-Peace negotiations ended started on May 5th, 2000, and ended on May 21st, 2000, with no agreements. On July 2th, 2000, by direct order initiated by S/RES/0007, a special reconnaissance military operation by drones.
+Peace negotiations ended started on May 5th, 2000, and ended on May 21st, 2000, with no agreements. On July 2th, 2000, by direct order initiated by S/RES/0007, a special reconnaissance military operation by drones. The war between Ikrayi and the UUN started on July 7th, 2000, with multiple insuccesful attempts to nuke major cities on midnight UTC. However, the <a href="/docs/world/dwerbia/error">World of Error</a> appeared June 7th, 2001 00:22:38 UTC and June 7th, 2001 00:23:46 UTC, cutting off connections between Darker Werbia and all worldports.
 
-The war between Ikrayi and the UUN started on July 7th, 2000, with multiple insuccesful attempts to nuke major cities on midnight UTC. However, the <a href="/docs/world/dwerbia/error">World of Error</a> appeared June 7th, 2001 00:22:38 UTC and June 7th, 2001 00:23:46 UTC, cutting off connections between Darker Werbia and all worldports.
-
-<hr>
+<div class="divider"></div> 
 <a href="/docs/world/dwerbia/transcript-1">➥ Transcript 1</a>
 
 [^1]: Terrorism is defined as the use of violence to achieve ideological or theological means
