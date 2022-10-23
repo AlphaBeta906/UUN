@@ -7,7 +7,6 @@ let markdownItAnchor = require("markdown-it-anchor");
 let markdownItTOC = require("markdown-it-table-of-contents");
 const slinkity = require('slinkity')
 const svelte = require('@slinkity/renderer-svelte')
-
 const searchFilter = require("./src/filters/searchFilter");
 
 module.exports = config => {
@@ -34,8 +33,8 @@ module.exports = config => {
     });
 
     config.setBrowserSyncConfig({
-		files: './_site/css/**/*.css'
-	});
+	files: './_site/css/**/*.css'
+    });
 
     // for --serve
     config.setBrowserSyncConfig({

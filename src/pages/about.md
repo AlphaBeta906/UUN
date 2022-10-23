@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 
 ## Is this real?
-Unless you're crazy, no. This is just a silly side-project to strengthen my webdev skills.
+Unless you're crazy, this is not real. This is just a silly side-project to strengthen my webdev skills.
 
 ## How did you make it?
 <a href="https://www.11ty.dev" class="text-[#222] dark:text-white">11ty</a>, <a href="https://slinkity.dev" class="text-[#ff00d4]">Slinkity</a>, <a href="https://sass-lang.com" class="text-[#c6538c]">Sass</a>, <a href="https://tailwindcss.com" class="text-sky-500">Tailwind</a> + <a href="https://daisyui.com" class="text-primary">DaisyUI</a>, <a href="https://www.npmjs.com/package/elasticlunr" class="text-[#708284]">Elasticlunr</a> and <a href="https://www.netlify.com" class="text-[#00C7B7]">Netlify</a>.<br><br>
