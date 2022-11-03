@@ -4,6 +4,7 @@
     const search = () => {
         const e = document.getElementById("searchField").value
 
+        /* Filtering the results based on the checkboxes. */
         const results = window.searchIndex.search(e, {
             bool: "OR",
             expand: true,
