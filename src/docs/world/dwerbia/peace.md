@@ -15,12 +15,22 @@ tags:
     </ul>
 </nav>
 
-<div class="alert alert-error shadow-lg">
-    <div>
-        {% include "warning.njk" %}
-        <span>
-        The world of Darker Werbia is actively hostile towards the UUN. Please do not try to contact or travel to Darker Werbia, especially Ikrayi, as they have been shown to engage in terrorism. If you have any new and potentially worrisome information about Darker Werbia, contact the hotline UUN-172000-001.
-        </span>
+<div class="grid gap-4">
+    <div class="alert alert-error shadow-lg">
+        <div>
+            {% include "warning.njk" %}
+            <span>
+            This page has been shadow-hidden for safety purposes. Please share this page on your own risk.
+            </span>
+        </div>
+    </div>
+    <div class="alert alert-error shadow-lg">
+        <div>
+            {% include "warning.njk" %}
+            <span>
+            The world of Darker Werbia is actively hostile towards the UUN. Please do not try to contact or travel to Darker Werbia, especially Ikrayi, as they have been shown to engage in terrorism. If you have any new and potentially worrisome information about Darker Werbia, contact the hotline UUN-172000-001.
+            </span>
+        </div>
     </div>
 </div>
 

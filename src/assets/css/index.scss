@@ -96,3 +96,16 @@ body {
 .direct-link {
     @apply link link-hover
 }
+
+.marquee {
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from { 
+        transform: translateX(100%) 
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

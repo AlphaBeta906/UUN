@@ -37,7 +37,7 @@
             <div class="m-2.5">
                 <!-- svelte-ignore a11y-click-events-have-key-events -->
                 <div
-                    class="h-[3rem] w-full max-w-xs shrink rounded-lg border border-amber-500 dark:border-yellow-500 pl-4 pr-4 text-black shadow-lg dark:text-white flex bg-base-100"
+                    class="h-[3rem] w-full max-w-xs shrink rounded-lg border border-base-300 pl-4 pr-4 text-black shadow-lg dark:text-white flex bg-base-100"
                     on:click={passcode}
                 >
                     <span class="my-auto">{text1}</span>
@@ -46,7 +46,7 @@
             <div class="m-2.5 {d2}">
                 <!-- svelte-ignore a11y-click-events-have-key-events -->
                 <div
-                    class="h-[3rem] w-full max-w-xs shrink rounded-lg border border-amber-500 dark:border-yellow-500 pl-4 pr-4 text-black shadow-lg dark:text-white flex bg-base-100"
+                    class="h-[3rem] w-full max-w-xs shrink rounded-lg border border-base-300 pl-4 pr-4 text-black shadow-lg dark:text-white flex bg-base-100"
                     on:click={myFunction}
                 >
                     <span class="my-auto">{text2}</span>
