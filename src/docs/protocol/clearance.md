@@ -11,10 +11,12 @@ tags:
         <li><b>Clearance Levels</b></li>
     </ul>
 </nav>
-                                           
+
+## Abstract
+
 All members of the UUN are given access to official documents and data to help them further their research. However, some documents are too sensitive and confidential that abuse of that information might be caused without proper clearance.
 
-## Clearance
+## Clearance Levels
 
 ### Level 1 Clearance
 Level 0 security clearances is only used for non-essential personnel, whom have no need to access information such as clerical, logistics, and janitorial staff.

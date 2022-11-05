@@ -4,16 +4,16 @@
 
 @layer base {
     h1 {
-        @apply text-3xl font-extrabold
+        @apply text-3xl font-extrabold pb-2
     }
     h2 {
-        @apply text-2xl font-bold py-5
+        @apply text-2xl font-bold pt-3.5 pb-2
     }
     h3 {
-        @apply text-xl font-bold py-5
+        @apply text-xl font-bold pt-3.5 pb-2
     }
     h4 {
-        @apply text-lg font-bold py-5
+        @apply text-lg font-bold pt-3.5 pb-2
     }
     h5 {
         @apply text-base
@@ -98,7 +98,7 @@ body {
 }
 
 .marquee {
-    animation: marquee 10s linear infinite;
+    animation: marquee 15s linear infinite;
 }
 
 @keyframes marquee {
