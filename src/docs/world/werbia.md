@@ -12,7 +12,7 @@ tags:
     </ul>
 </nav>
 
-<div class="alert shadow-lg">
+<div class="alert shadow-lg my-5">
     <div>
         {% include "info.njk" %}
         <span>
@@ -22,8 +22,7 @@ tags:
     </div>
 </div>
 
-## Abstract
-<figure class="float-left mr-[20px] w-[200px]">
+<figure class="float-right mr-[20px] w-[200px]">
 <a href="/assets/img/Werbia_map.png">
 <img class="h-[200px] w-auto" src="/assets/img/Werbia_map.png" alt="Mastistan map" />
 </a>

@@ -13,7 +13,7 @@ tags:
 </nav>
 
 {% slottedComponent '/components/passcode.svelte' 'hydrate' true %}
-<div class="grid gap-4">
+<div class="grid gap-5 mx-5">
 <div class="alert alert-error shadow-lg">
     <div>
         {% include "warning.njk" %}
@@ -35,8 +35,6 @@ tags:
 </div>
 
 {% renderTemplate 'md' %}
-## Abstract
-
 The **World of Shitery** is a hazardous world in the <span class="censored">A8</span> Cluster. The beings from the world have multiple forms depending on the viewer. Some assume that the beings are blobs with flags and two eyes, known as "countryballs." Others view them as national personifications.<br><br>
 
 The World of Shittery due to it's "psychedelic abstract-ness" caused researchers to breakdown into depression, anxiety and in some causes suicide. Because of this, in October 27th, 1996, the UUN has decided to end all operations in the World of Shittery, due to hazardous conditions.<br><br>

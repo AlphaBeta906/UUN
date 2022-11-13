@@ -13,7 +13,7 @@ tags:
     </ul>
 </nav>
 
-<div class="grid gap-4">
+<div class="grid gap-5">
 <div class="alert alert-error shadow-lg">
     <div>
         {% include "warning.njk" %}
@@ -32,11 +32,10 @@ tags:
     </span>
     </div>
 </div>
-</div>
 
 [[toc]]
+</div>
 
-## Abstract
 <figure class="float-left mr-[20px] w-[200px]">
 <a href="/assets/img/Mastistan_map.png">
 <img class="h-[150px] w-auto" src="/assets/img/Mastistan_map.png" alt="Mastistan map" />

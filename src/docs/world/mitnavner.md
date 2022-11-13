@@ -14,7 +14,7 @@ tags:
     </ul>
 </nav>
 
-<div class="grid gap-4">
+<div class="grid gap-5 pb-5">
 <div class="alert alert-error shadow-lg">
     <div>
         {% include "warning.njk" %}
@@ -44,7 +44,6 @@ tags:
 </div>
 </div>
 
-## Abstract
 The **World of Mitnavner** is a world in the A8 Cluster. It was disovered in January 6th, 1999 and research started in July 26th, 2002. No known stable worldports located it Mitnavner exist. Mitnavner's atmosphere has a higher concentration of Argon than other worlds, to the extent that UUN researchers are required to wear special glasses to be able to enter Mitnavner, but not too much to replace the oxygen in the atmosphere.
 
 ## Locations

@@ -12,7 +12,6 @@ tags:
     </ul>
 </nav>
 
-## Abstract 
 The **World Progression Classification** (**WPC**), issued by C/GAR/0013, is a classification tool used to designate integration with the UUN.
 
 ## Classes
