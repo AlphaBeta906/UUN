@@ -13,7 +13,7 @@ tags:
     </ul>
 </nav>
 
-<div class="grid gap-5">
+<div class="grid gap-5 mb-10">
 <div class="alert alert-error shadow-lg">
     <div>
         {% include "warning.njk" %}
@@ -32,8 +32,6 @@ tags:
     </span>
     </div>
 </div>
-
-[[toc]]
 </div>
 
 <figure class="float-left mr-[20px] w-[200px]">

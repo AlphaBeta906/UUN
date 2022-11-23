@@ -14,7 +14,7 @@ tags:
     </ul>
 </nav>
 
-<div class="grid gap-5 pb-5">
+<div class="grid gap-5 mb-10">
 <div class="alert alert-error shadow-lg">
     <div>
         {% include "warning.njk" %}

@@ -4,7 +4,6 @@ const fs = require("fs");
 let markdownIt = require("markdown-it");
 let markdownItFootnote = require("markdown-it-footnote");
 let markdownItAnchor = require("markdown-it-anchor");
-let markdownItTOC = require("markdown-it-table-of-contents");
 const slinkity = require('slinkity')
 const svelte = require('@slinkity/renderer-svelte')
 const searchFilter = require("./src/filters/searchFilter");
@@ -60,10 +59,6 @@ module.exports = config => {
             permalink: true,
             permalinkClass: "direct-link",
             permalinkSymbol: "⚓️"
-        })
-        .use(markdownItTOC, {
-            "containerHeaderHtml": '<div class="toc-container-header">Contents</div>',
-            "includeLevel": [2,3,4]
         })
 
         markdownLib.renderer.rules.footnote_block_open = () => (
