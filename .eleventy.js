@@ -8,6 +8,8 @@ const slinkity = require('slinkity')
 const svelte = require('@slinkity/renderer-svelte')
 const searchFilter = require("./src/filters/searchFilter");
 
+require('dotenv').config();
+
 module.exports = config => {
     let options = {
         html: true, // Enable HTML tags in source
@@ -15,6 +17,8 @@ module.exports = config => {
         linkify: true, // Autoconvert URL-like text to links,
         paragraph: false
     };
+
+    config.addGlobalData('env', process.env);
 
     config.addPlugin(eleventyNavigationPlugin);
     config.addPlugin(EleventyRenderPlugin);

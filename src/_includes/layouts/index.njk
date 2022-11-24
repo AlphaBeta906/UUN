@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/index.css' | url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="google-site-verification" content="hXojMx_26ZhctCmIbReFv3SMLULy1v3NP39HrNtdYw8" />
+    <meta name="google-site-verification" content="{{ env.CONTENT }}" />
 </head>
 
 <body id="bdy" class="transition-all ease-in-out min-h-[100vh] w-screen flex flex-col justify-between">
@@ -50,8 +50,7 @@
                 </div>
 
                 <label class="swap swap-rotate btn btn-link text-base-content">
-                    <input id="lol" type="checkbox" data-toggle-theme="dark,light" data-act-class="ACTIVECLASS"
-                        onclick="you()" />
+                    <input id="lol" type="checkbox" data-toggle-theme="dark,light" data-act-class="ACTIVECLASS" />
                     <div class="swap-on">
                         <ion-icon name="moon" class="align-middle text-base"></ion-icon>
                     </div>
@@ -80,13 +79,13 @@
     }
 </script>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P49J97Q358"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ env.GOOGLE }}"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', 'G-P49J97Q358');
+    gtag('config', '{{ env.GOOGLE }}');
 </script>
 
 </html>
