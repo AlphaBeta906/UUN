@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="google-site-verification" content="{{ env.CONTENT }}" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ env.GOOGLE }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', '{{ env.GOOGLE }}');
+    </script>
 </head>
 
 <body id="bdy" class="transition-all ease-in-out min-h-[100vh] w-screen flex flex-col justify-between">
@@ -65,6 +74,12 @@
         </main>
     </div>
     <footer class="footer footer-center p-4 bg-base-300 text-base-content">
+        <div class="grid grid-flow-col gap-5">
+            <a class="link link-hover" href="/about/">About</a> 
+            <a class="link link-hover" href="/contact/">Contact</a> 
+            <a class="link link-hover" href="/tos/">Terms of Service</a>
+            <a class="link link-hover" href="/privacy/">Privacy Policy</a>
+          </div> 
         <div>
             <p>Provided by the United Universal Nations.</p>
         </div>
@@ -77,15 +92,6 @@
     if (localStorage.theme === 'dark') {
         document.getElementById("lol").checked = "checked"
     }
-</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ env.GOOGLE }}"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', '{{ env.GOOGLE }}');
 </script>
 
 </html>

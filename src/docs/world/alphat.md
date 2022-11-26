@@ -12,7 +12,7 @@ tags:
     </ul>
 </nav>
 
-<div class="alert shadow-lg mb-10">
+<div class="alert shadow-lg mb-5">
     <div>
         {% include "info.njk" %}
         <span>

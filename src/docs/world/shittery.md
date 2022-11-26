@@ -13,7 +13,7 @@ tags:
 </nav>
 
 {% slottedComponent '/components/passcode.svelte' 'hydrate' true %}
-<div class="grid gap-5 mb-10">
+<div class="grid gap-5 mb-5">
 <div class="alert alert-error shadow-lg">
     <div>
         {% include "warning.njk" %}

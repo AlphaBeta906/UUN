@@ -2,7 +2,7 @@
 title: Home
 layout: layouts/index.njk
 ---
-<div class="flex w-[100%] gap-4">
+<div class="flex w-[100%] gap-5">
 	<div class="card lg:card-side bg-blue-500 dark:bg-blue-400 shadow-xl text-primary-content w-[60%]">
 		<figure>
 			<img src="/assets/img/Homepage_main.png" alt="Movie" class="w-min"/>
