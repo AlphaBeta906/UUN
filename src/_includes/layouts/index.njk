@@ -18,7 +18,7 @@
     </script>
 </head>
 
-<body id="bdy" class="transition-all ease-in-out min-h-[100vh] w-screen flex flex-col justify-between">
+<body class="transition-all ease-in-out min-h-[100vh] w-screen flex flex-col justify-between">
     {% set navPages = collections.all | eleventyNavigation %}
 
     <div>
@@ -76,8 +76,11 @@
     <footer class="footer footer-center p-4 bg-base-300 text-base-content">
         <div class="grid grid-flow-col gap-5">
             <a class="link link-hover" href="/about/">About</a> 
+            <div> - </div>
             <a class="link link-hover" href="/contact/">Contact</a> 
+            <div> - </div>
             <a class="link link-hover" href="/tos/">Terms of Service</a>
+            <div> - </div>
             <a class="link link-hover" href="/privacy/">Privacy Policy</a>
           </div> 
         <div>
@@ -86,7 +89,7 @@
     </footer>
 </body>
 <script type="module" src="/assets/js/easteregg.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+<script type="module" src="/assets/js/imports.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
 <script>
     if (localStorage.theme === 'dark') {

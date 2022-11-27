@@ -2,9 +2,6 @@
 title: Credits
 layout: layouts/index.njk
 permalink: /credits/
-eleventyNavigation:
-  key: About
-  order: 0
 ---
 <center><h1>Credits</h1></center>
 
