@@ -6,14 +6,16 @@ tags:
     - Post
 ---
 
-<nav class="text-sm breadcrumbs pb-5">
+<nav class="text-sm breadcrumbs">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
         <li><a href="/docs/world/dwerbia">Darker Werbia</a></li>
-        <li><b>Darker Werbia Peace Negotiations of 2000</b></li>
+        <li><b>Darker Werbia Peace Negotiations of 2001</b></li>
     </ul>
 </nav>
+<div class="divider"></div>
+<center><h1>Darker Werbia Peace Negotiations of 2001</h1></center>
 
 <div class="grid gap-5 mb-5">
     <div class="alert alert-error shadow-lg">

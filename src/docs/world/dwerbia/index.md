@@ -5,13 +5,15 @@ link-citations: true
 tags:
     - World
 ---
-<nav class="text-sm breadcrumbs pb-5">
+<nav class="text-sm breadcrumbs">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
         <li><b>Darker Werbia</b></li>
     </ul>
 </nav>
+<div class="divider"></div>
+<center><h1>Darker Werbia</h1></center>
 
 <div class="grid gap-5 mb-5">
     <div class="alert alert-error shadow-lg">

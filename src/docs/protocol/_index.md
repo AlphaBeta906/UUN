@@ -6,12 +6,14 @@ tags:
     - Navigation
     - Protocol
 ---
-<nav class="text-sm breadcrumbs pb-5">
+<nav class="text-sm breadcrumbs">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><b>Protocols</b></li>
     </ul>
 </nav>
+<div class="divider"></div>
+<center><h1>Protocols</h1></center>
 
 ## Classifications
 <ul>
