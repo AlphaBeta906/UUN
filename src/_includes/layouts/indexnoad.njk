@@ -9,17 +9,12 @@
     <meta name="google-site-verification" content="{{ env.CONTENT }}" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ env.GOOGLE }}"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ env.CLIENT }}"
-        crossorigin="anonymous"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', '{{ env.GOOGLE }}');
-    </script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
 </head>
 
@@ -76,13 +71,7 @@
         </nav>
         <main class="px-8 py-4 sm:px-12">
             {{ content | safe }}
-            <div class="divider"></div>
         </main>
-    </div>
-    <!-- Ad-Unit 1 -->
-    <div style="clear: both; margin-bottom: 1rem; text-align: center;">
-    <ins class="adsbygoogle block pb-4" style="height: 0px; !important" data-ad-client="{{ env.CLIENT }}"
-        data-ad-slot="{{ env.SLOT }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
     </div>
     <footer class="footer footer-center p-4 bg-base-300 text-base-content">
         <div class="grid grid-flow-col gap-5">

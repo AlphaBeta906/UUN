@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: layouts/index.njk
+layout: layouts/indexnoad.njk
 ---
 <div class="flex w-[100%] gap-5">
 	<div class="card lg:card-side bg-blue-500 dark:bg-blue-400 shadow-xl text-primary-content w-[60%]">
@@ -16,10 +16,10 @@ layout: layouts/index.njk
 		<div class="card-body">
 			<span class="card-title text-2xl font-bold">Recent posts</span>
 			<ul>
-				<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-				<li>Aliquam tincidunt mauris eu risus.</li>
-				<li>Vestibulum auctor dapibus neque.</li>
-				<li>Nunc dignissim risus id metus.</li>
+				<li class="text-ellipsis">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+				<li class="text-ellipsis">Aliquam tincidunt mauris eu risus.</li>
+				<li class="text-ellipsis">Vestibulum auctor dapibus neque.</li>
+				<li class="text-ellipsis">Nunc dignissim risus id metus.</li>
 			</ul>
 		</div>
 	</div>
