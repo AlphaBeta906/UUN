@@ -12,7 +12,7 @@ tags:
     </ul>
 </nav>
 <div class="divider"></div>
-<center><h1>World Progression Classification</h1></center>
+<div class="text-center"><h1>World Progression Classification</h1></div>
 
 The **World Progression Classification** (**WPC**), issued by C/GAR/0013, is a classification tool used to designate integration with the UUN.
 

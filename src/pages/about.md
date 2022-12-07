@@ -6,7 +6,7 @@ eleventyNavigation:
   key: About
   order: 0
 ---
-<center><h1>About</h1></center>
+<div class="text-center"><h1>About</h1></div>
 
 <div class="alert alert-error shadow-lg mb-5">
     <div>

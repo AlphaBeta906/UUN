@@ -12,7 +12,7 @@ tags:
     </ul>
 </nav>
 <div class="divider"></div>
-<center><h1>World of Werbia</h1></center>
+<div class="text-center"><h1>World of Werbia</h1></div>
 
 <div class="alert shadow-lg mb-5">
     <div>

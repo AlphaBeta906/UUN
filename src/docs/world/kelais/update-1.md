@@ -15,7 +15,7 @@ tags:
     </ul>
 </nav>
 <div class="divider"></div>
-<center><h1>Update 1</h1></center>
+<div class="text-center"><h1>Update 1</h1></div>
 
 <div class="alert alert-error shadow-lg mb-5">
     <div>

@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Contact
   order: 3
 ---
-<center><h1>Contact</h1></center>
+<div class="text-center"><h1>Contact</h1></div>
 
 <div class="alert alert-error shadow-lg mb-5">
     <div>

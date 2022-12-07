@@ -3,7 +3,7 @@ title: Privacy Policy
 layout: layouts/index.njk
 permalink: /privacy/
 ---
-<center><h1>Privacy Policy for UUN</h1></center>
+<div class="text-center"><h1>Privacy Policy for UUN</h1></div>
 
 <p>At UUN, accessible from https://uniteduniversalnations.netlify.app, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by UUN and how we use it.</p>
 

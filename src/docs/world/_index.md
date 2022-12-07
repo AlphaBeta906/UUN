@@ -13,7 +13,7 @@ tags:
     </ul>
 </nav>
 <div class="divider"></div>
-<center><h1>Worlds</h1></center>
+<div class="text-center"><h1>Worlds</h1></div>
 
 ## Worlds
 <ul>

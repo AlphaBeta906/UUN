@@ -13,7 +13,7 @@ tags:
     </ul>
 </nav>
 <div class="divider"></div>
-<center><h1>Protocols</h1></center>
+<div class="text-center"><h1>Protocols</h1></div>
 
 ## Classifications
 <ul>

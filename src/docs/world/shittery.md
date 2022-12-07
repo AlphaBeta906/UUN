@@ -12,7 +12,7 @@ tags:
     </ul>
 </nav>
 <div class="divider"></div>
-<center><h1>World of Shittery</h1></center>
+<div class="text-center"><h1>World of Shittery</h1></div>
 
 {% slottedComponent '/components/passcode.svelte' 'hydrate' true %}
 <div class="grid gap-5 mb-5">

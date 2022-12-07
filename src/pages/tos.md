@@ -3,7 +3,7 @@ title: Terms of Service
 layout: layouts/index.njk
 permalink: /tos/
 ---
-<center><h1>Terms and Conditions</h1></center>
+<div class="text-center"><h1>Terms and Conditions</h1></div>
 
 <p>Welcome to UUN!</p>
 

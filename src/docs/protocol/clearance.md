@@ -12,7 +12,7 @@ tags:
     </ul>
 </nav>
 <div class="divider"></div>
-<center><h1>Clearance Levels</h1></center>
+<div class="text-center"><h1>Clearance Levels</h1></div>
 
 All members of the UUN are given access to official documents and data to help them further their research. However, some documents are too sensitive and confidential that abuse of that information might be caused without proper clearance.
 
