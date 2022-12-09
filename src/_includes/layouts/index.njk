@@ -7,20 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="google-site-verification" content="{{ env.CONTENT }}" />
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ env.GOOGLE }}"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ env.CLIENT }}"
-        crossorigin="anonymous"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', '{{ env.GOOGLE }}');
-    </script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    {% component '/components/tags.svelte', hydrate=true %}
 </head>
 
 <body class="transition-all ease-in-out min-h-[100vh] w-screen flex flex-col justify-between">
@@ -80,12 +67,7 @@
     </div>
     <footer>
         <center>
-            <!-- Ad-Unit 1 -->
-            <ins class="adsbygoogle pb-6 block"
-            data-ad-client="{{ env.CLIENT }}"
-            data-ad-slot="{{ env.SLOT }}"
-            data-ad-format="horizontal"
-            data-full-width-responsive="true"></ins>
+            {% component '/components/ads.svelte', hydrate=true %}
         </center>
         <footer class="footer footer-center mt-3 p-4 bg-base-300 text-base-content">
             <div class="grid grid-flow-col gap-5">
@@ -106,10 +88,4 @@
 <script type="module" src="/assets/js/easteregg.js"></script>
 <script type="module" src="/assets/js/imports.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
-<script>
-    if (localStorage.theme === 'dark') {
-        document.getElementById("lol").checked = "checked"
-    }
-</script>
-
 </html>

@@ -9,3 +9,7 @@ if (window.localStorage.getItem("theme") === null) {
         localStorage.theme = "light"
     }
 }
+
+if (window.localStorage.theme === 'dark') {
+    document.getElementById("lol").checked = "checked"
+}
