@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="google-site-verification" content="{{ env.CONTENT }}" />
-    {% component '/components/tags.svelte', hydrate=true %}
 </head>
 
 <body class="transition-all ease-in-out min-h-[100vh] w-screen flex flex-col justify-between">
@@ -83,10 +82,4 @@
 <script type="module" src="/assets/js/easteregg.js"></script>
 <script type="module" src="/assets/js/imports.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
-<script>
-    if (localStorage.theme === 'dark') {
-        document.getElementById("lol").checked = "checked"
-    }
-</script>
-
 </html>
