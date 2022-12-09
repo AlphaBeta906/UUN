@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-layout: layouts/index.njk
+layout: layouts/indexnoad.njk
 permalink: /privacy/
 ---
 <div class="text-center"><h1>Privacy Policy for UUN</h1></div>

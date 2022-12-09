@@ -1,6 +1,6 @@
 ---
 title: Terms of Service
-layout: layouts/index.njk
+layout: layouts/indexnoad.njk
 permalink: /tos/
 ---
 <div class="text-center"><h1>Terms and Conditions</h1></div>
