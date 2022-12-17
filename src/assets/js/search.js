@@ -36,7 +36,7 @@
         if (results.length !== 0 || e.trim() === "") {
             noResultsEl.style.display = "none";
             results.map((r) => {
-                const { id, title, description } = r.doc;
+                const { id, title, tags } = r.doc;
                 const el = document.createElement("li");
                 resEl.appendChild(el);
 
@@ -48,9 +48,32 @@
                 a.textContent = title;
                 h3.appendChild(a);
 
-                const p = document.createElement("p");
-                p.textContent = description;
-                el.appendChild(p);
+                tags.map((tag) => {
+                    const tagBadge = document.createElement("div");
+                    tagBadge.classList.add("badge");
+                    tagBadge.classList.add("font-extrabold");
+
+                    switch (tag) {
+                        case "World": 
+                            tagBadge.textContent = "🌍 Worlds"
+                            tagBadge.classList.add("badge-success")
+                            break
+                        case "Post": 
+                            tagBadge.textContent = "💬 Posts / Documents"
+                            break
+                        case "Navigation": 
+                            tagBadge.textContent = "🧭 Navigation"
+                            tagBadge.classList.add("badge-info")
+                            break
+                        case "Protocol": 
+                            tagBadge.textContent = "⚠️ Protocols"
+                            tagBadge.classList.add("badge-warning")
+                            break
+                    }
+
+                    h3.appendChild(document.createTextNode(" "));
+                    h3.appendChild(tagBadge)
+                })
             });
         } else {
             noResultsEl.style.display = "block";

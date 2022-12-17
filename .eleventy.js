@@ -63,8 +63,8 @@ module.exports = config => {
         .use(markdownItAnchor, {
             permalink: markdownItAnchor.permalink.linkInsideHeader({
                 symbol: `
-                <span aria-hidden="true">⚓️</span>
-              `,
+                    <span aria-hidden="true">⚓️</span>
+                `,
                 placement: 'after'
             })
         })

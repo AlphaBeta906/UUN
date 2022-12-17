@@ -27,7 +27,7 @@ tags:
         <a href="/docs/world/werbia/" class="text-green-500">Werbia</a>
     </li>
     <li>
-        <a href="/docs/world/tdw/" class="text-green-500">The Darkest World</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
+        <a href="/docs/world/tdw/" class="text-green-500">The Darkest World</a> <div class="badge badge-info font-extrabold">TBA</div>
     </li>
     <li>
         <a href="/docs/world/ralphat/" class="text-green-600">Ralphat</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
@@ -37,9 +37,9 @@ tags:
 ## Worlds in Research
 <ul>
     <li>
-        <a href="/docs/world/kelais/" class="text-orange-500">Kelais</a>
+        <a href="/docs/world/kelais/" class="text-orange-500">Kelais</a> <div class="badge badge-success font-extrabold">NEW</div>
     </li>
     <li>
-        <a href="/docs/world/mitnavner/" class="text-orange-500">Mitnavner</a> <div class="badge badge-warning font-extrabold">WORK IN PROGRESS</div>
+        <a href="/docs/world/mitnavner/" class="text-orange-500">Mitnavner</a>
     </li>
 </ul>
