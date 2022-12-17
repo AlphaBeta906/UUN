@@ -28,6 +28,7 @@ module.exports = config => {
 
     config.addPassthroughCopy('./src/assets/')
     config.addPassthroughCopy('./src/public/fonts/')
+    config.addPassthroughCopy('./src/public')
 
     config.addFilter("search", searchFilter);
 
@@ -36,7 +37,7 @@ module.exports = config => {
     });
 
     config.setBrowserSyncConfig({
-	files: './_site/css/**/*.css'
+        files: './_site/css/**/*.css'
     });
 
     // for --serve
@@ -57,17 +58,20 @@ module.exports = config => {
         ghostMode: false
     });
 
-    let markdownLib =  markdownIt(options)
+    let markdownLib = markdownIt(options)
         .use(markdownItFootnote)
         .use(markdownItAnchor, {
-            permalink: true,
-            permalinkClass: "direct-link",
-            permalinkSymbol: "⚓️"
+            permalink: markdownItAnchor.permalink.linkInsideHeader({
+                symbol: `
+                <span aria-hidden="true">⚓️</span>
+              `,
+                placement: 'after'
+            })
         })
 
-        markdownLib.renderer.rules.footnote_block_open = () => (
-            '<div class="divider"></div><section><ol>'
-        )
+    markdownLib.renderer.rules.footnote_block_open = () => (
+        '<div class="divider"></div><section><ol>'
+    )
 
     config.setLibrary("md", markdownLib);
 
