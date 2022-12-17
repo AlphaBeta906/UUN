@@ -5,8 +5,8 @@
 <script>
     import { onMount } from 'svelte';
 
-    const client = import.meta.env.CLIENT;
-    const slot = import.meta.env.SLOT;
+    const client = import.meta.env.VITE_CLIENT;
+    const slot = import.meta.env.VITE_SLOT;
 
     onMount(() => {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
