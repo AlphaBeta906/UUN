@@ -66,7 +66,7 @@
                             tagBadge.classList.add("badge-info")
                             break
                         case "Protocol": 
-                            tagBadge.textContent = "⚠️ Protocols"
+                            tagBadge.textContent = "❗️ Protocols"
                             tagBadge.classList.add("badge-warning")
                             break
                     }
