@@ -28,7 +28,9 @@
     <div>
         <nav class="navbar bg-base-300 md:flex">
             <div class="flex-1">
-                <a class="btn btn-ghost text-blue-500 dark:text-blue-400 text-xl" href="/">UUN</a>
+                <a class="btn btn-ghost text-blue-500 dark:text-blue-400 text-xl" href="/">
+                    {% if secret %}SUS{% else %}UUN{% endif %}
+                </a>
             </div>
             <div class="flex-none">
                 <ul class="hidden menu p-0 sm:contents">

@@ -1,11 +1,15 @@
 ---
-title: Search
+title: NOT A SECRET PAGE
 layout: layouts/index.njk
 permalink: /secret/
+secret: true
 ---
-<h2>Content is not found</h2>
+<div class="text-center">
+<h1>Content is not found.</h1>
+
 You have typed the wrong url.<br><br>
 
-<span class="text-transparent">
+<span class="invisible hover:visible">
 YOU HAVE FOUND THE VERY VERY VERY SECRET PAGE!!!!!
 </span>
+</div>
