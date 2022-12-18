@@ -19,7 +19,7 @@ npm install
 ## Running the dev server
 
 ```sh
-npm start
+npm run serve
 ```
 
 This starts the Slinkity dev server with the `--incremental` flag.
