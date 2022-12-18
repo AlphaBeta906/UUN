@@ -2,6 +2,7 @@
 title: Privacy Policy
 layout: layouts/indexnoad.njk
 permalink: /privacy/
+description: This Privacy Policy document contains types of information that is collected and recorded by UUN and how we use it.
 ---
 <div class="text-center"><h1>Privacy Policy for UUN</h1></div>
 

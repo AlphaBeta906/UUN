@@ -2,6 +2,7 @@
 title: Terms of Service
 layout: layouts/indexnoad.njk
 permalink: /tos/
+description: These terms and conditions outline the rules and regulations for the use of UUN's Website
 ---
 <div class="text-center"><h1>Terms and Conditions</h1></div>
 

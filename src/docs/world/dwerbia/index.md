@@ -4,6 +4,7 @@ layout: layouts/index.njk
 link-citations: true
 tags:
     - World
+description: Darker Werbia is an world similar to Werbia; if it branched from Werbia is unknown. The world was found on September 4th, 1998; research started on December 23rd, 1998, and ended on February 7th, 1999.
 ---
 <nav class="text-sm breadcrumbs">
     <ul>

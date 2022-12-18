@@ -3,6 +3,7 @@ title: World of Werbia
 layout: layouts/index.njk
 tags:
     - World
+description: The World of Werbia formerly known as the **World of Sundir** during 1985-1994 is a world in the B2 Cluster.
 ---
 <nav class="text-sm breadcrumbs">
     <ul>

@@ -1,6 +1,6 @@
 ---
 title: NOT A SECRET PAGE
-layout: layouts/index.njk
+layout: layouts/indexnoad.njk
 permalink: /secret/
 secret: true
 ---

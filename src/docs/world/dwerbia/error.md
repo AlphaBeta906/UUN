@@ -4,6 +4,7 @@ layout: layouts/index.njk
 link-citations: true
 tags:
     - World
+description: The World of Error was a world that existed between June 7th, 2001 00:22:38 UTC and June 7th, 2001 00:23:46 UTC.
 ---
 <nav class="text-sm breadcrumbs">
     <ul>
