@@ -4,12 +4,13 @@
   "description": "A website created using 11ty, Slinkity, Sass and Tailwind.",
   "main": ".eleventy.js",
   "scripts": {
-    "serve:sass": "sass --watch src/assets/css:_site/assets/css && postcss _site/assets/css/index.css --replace",
-    "build:sass": "sass src/assets/css:_site/assets/css && postcss _site/assets/css/index.css --replace",
-    "serve:eleventy": "eleventy --serve",
-    "build:eleventy": "eleventy --incremental",
-    "serve": "npm-run-all build:sass --parallel serve:*",
-    "build": "npm-run-all build:*"
+    "clean": "rimraf _site",
+    "serve:css": "tailwindcss -i src/assets/css/index.scss -o _site/assets/css/index.css --watch --postcss",
+    "serve:eleventy": "ELEVENTY_ENV=development eleventy --serve",
+    "serve": "npm-run-all clean --parallel serve:*",
+    "build:css": "tailwindcss -i src/assets/css/index.scss -o _site/assets/css/index.css --postcss",
+    "build:eleventy": "ELEVENTY_ENV=production eleventy",
+    "build": "NODE_ENV=production run-s clean build:*"
   },
   "author": "",
   "license": "ISC",
@@ -32,6 +33,7 @@
     "@slinkity/renderer-svelte": "^1.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "npm-run-all": "^4.1.5",
+    "postcss-scss": "^4.0.6",
     "sass": "^1.55.0",
     "slinkity": "^0.8.3",
     "svelte": "^3.50.1"

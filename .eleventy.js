@@ -27,8 +27,7 @@ module.exports = config => {
     }))
 
     config.addPassthroughCopy('./src/assets/')
-    config.addPassthroughCopy('./src/public/fonts/')
-    config.addPassthroughCopy('./src/public')
+    config.addPassthroughCopy('./src/public/~ionicons')
 
     config.addFilter("search", searchFilter);
 
