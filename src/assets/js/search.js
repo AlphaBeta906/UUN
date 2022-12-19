@@ -21,8 +21,6 @@
             if (protocol === false) { not_allowed.push("Protocol") }
             if (post === false) { not_allowed.push("Post") }
 
-            console.log(not_allowed)
-
             if (e.doc.tags.filter(tag => !(not_allowed.includes(tag))).length !== 0) {
                 return true
             }
