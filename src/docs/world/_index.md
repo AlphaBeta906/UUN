@@ -18,7 +18,7 @@ tags:
 ## Worlds
 <ul>
     <li>
-        <a href="/docs/world/alphat/" class="text-green-500">Alphat</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
+        <a href="/docs/world/alphat/" class="text-green-500">Alphat</a>
     </li>
     <li>
         <a href="/docs/world/aztrax/" class="text-green-500">Aztrax</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>

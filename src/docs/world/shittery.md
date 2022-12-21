@@ -30,7 +30,7 @@ tags:
         {% include "info.njk" %}
         <span>
         <b>Classification:</b> <span class="text-red-800">Stage 0a - Hazardous</span><br>
-        <b>Frequency:</b> <span class="censored">091.8871</span>
+        <b>Frequency:</b> <span class="censored">081.8871</span>
         </span>
     </div>
 </div>

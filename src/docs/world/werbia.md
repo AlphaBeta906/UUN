@@ -20,7 +20,7 @@ description: The World of Werbia formerly known as the **World of Sundir** durin
         {% include "info.njk" %}
         <span>
         <b>Classification:</b> <span class="text-green-500">Open World</span><br>
-        <b>Frequency:</b> 301.7384
+        <b>Frequency:</b> 201.7384
         </span>
     </div>
 </div>

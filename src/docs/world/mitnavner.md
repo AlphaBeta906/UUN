@@ -41,7 +41,7 @@ description: The World of Mitnavner is a world in the A8 Cluster. It was disover
         {% include "info.njk" %}
         <span>
             <b>Classification:</b> <span class="text-orange-500">Stage 2 - In Research</span><br>
-            <b>Frequency:</b> 006.8762
+            <b>Frequency:</b> 086.8762
         </span>
     </div>
 </div>
@@ -52,7 +52,7 @@ The **World of Mitnavner** is a world in the A8 Cluster. It was disovered in Jan
 ## Locations
 
 ### Lake Tilmar
-<div class="alert alert-warning shadow-lg mb-4">
+<div class="alert alert-warning shadow-lg mb-5">
     <div>
         {% include "warning.njk" %}
         <span>
@@ -60,5 +60,4 @@ The **World of Mitnavner** is a world in the A8 Cluster. It was disovered in Jan
         </span>
     </div>
 </div>
-
 Lake Tilmar is a lake with floating houses, and some islands.
