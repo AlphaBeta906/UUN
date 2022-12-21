@@ -27,9 +27,6 @@ tags:
         <a href="/docs/world/werbia/" class="text-green-500">Werbia</a>
     </li>
     <li>
-        <a href="/docs/world/tdw/" class="text-green-500">The Darkest World</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
-    </li>
-    <li>
         <a href="/docs/world/ralphat/" class="text-green-600">Ralphat</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
     </li>
 </ul>
@@ -41,5 +38,8 @@ tags:
     </li>
     <li>
         <a href="/docs/world/mitnavner/" class="text-orange-500">Mitnavner</a>
+    </li>
+    <li>
+        <a href="/docs/world/tdw/" class="text-orange-500">The Darkest World</a>
     </li>
 </ul>
