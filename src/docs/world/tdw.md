@@ -46,13 +46,13 @@ description: The Darkest World is in the (any cluster), and was discovered by ac
 </div>
 </div>
 
-**The World of Nox**, often referred to as the **The Darkest World** (**TDW**) is in the B8 Cluster, and was discovered by accident on September 4th, 1994. The world, when discovered, had a high concentration of uranium and other radioactive elements, and was used illegally by member countries as a dumping ground for radioactive waste, believing it was uninhabited. The world has a high concentration of radioactive elements, and it is recommended for people to use hazmat suits when going outside.
+**The World of Nox**, often referred to as the **The Darkest World** (**TDW**) is in the B8 Cluster, and was discovered by accident on September 4th, 1994. The world, when discovered, had a high concentration of uranium and other radioactive elements, and was used illegally by member countries as a dumping ground for radioactive waste, believing it was uninhabited. The world has a high concentration of radioactive elements, and it is recommended for people to use hazmat suits when going outside.<br><br>
 
 Research suggests that The Darkest World was a result of a nuclear war, which caused the high radioactive levels. Research about intent, security, and ethics are still ongoing, wether to continue researching The Darkest World or to end it in fear of an attack to the UUN. Research to The Darkest World was suspended with the <a href="/docs/world/dwerbia/transcript-1">Ikrayi signal hijacking</a> of multiple broadcast networks. Multiple assembly hearings has been conducted to renew research to The Darkest World.
 
 ## Locations
 
 ### Aral Sea
-The Aral Sea is a near-dried up lake which is the least radioactive part of the planet. It was used as a base of operations due to it's near radio silence and desert environment which was used as camouflage.
+The Aral Sea is a near-dried up lake which is the least radioactive part of the planet. It was used as a base of operations due to it's near radio silence and desert environment which was used as camouflage.<br><br>
 
 The base was deep underground, and layered with frozen CO2, and has advanced security measures to prevent raids.
