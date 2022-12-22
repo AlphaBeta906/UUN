@@ -4,14 +4,13 @@ layout: layouts/index.njk
 tags:
     - World
 ---
-<nav class="text-sm breadcrumbs">
+<nav class="text-sm breadcrumbs mb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
         <li><b>Shittery</b></li>
     </ul>
 </nav>
-<div class="divider"></div>
 <div class="text-center"><h1>World of Shittery</h1></div>
 
 {% slottedComponent '/components/passcode.svelte' 'hydrate' true %}

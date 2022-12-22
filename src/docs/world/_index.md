@@ -6,13 +6,12 @@ tags:
     - Navigation
     - World
 ---
-<nav class="text-sm breadcrumbs">
+<nav class="text-sm breadcrumbs mb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><b>Worlds</b></li>
     </ul>
 </nav>
-<div class="divider"></div>
 <div class="text-center"><h1>Worlds</h1></div>
 
 ## Worlds

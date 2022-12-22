@@ -6,14 +6,13 @@ tags:
     - World
 description: The World of Kelais is a world in the A8 Cluster. It was discovered in January 6th, 1999, and research started in June 29th, 2002 on Yibble.
 ---
-<nav class="text-sm breadcrumbs">
+<nav class="text-sm breadcrumbs mb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
         <li><b>Kelais</b></li>
     </ul>
 </nav>
-<div class="divider"></div>
 <div class="text-center"><h1>World of Kelais</h1></div>
 
 <div class="grid gap-5 mb-5">

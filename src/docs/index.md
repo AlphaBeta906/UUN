@@ -7,12 +7,11 @@ eleventyNavigation:
   key: Docs
   order: 1
 ---
-<nav class="text-sm breadcrumbs">
+<nav class="text-sm breadcrumbs mb-5">
     <ul>
         <li><b>Documents</b></li>
     </ul>
 </nav>
-<div class="divider"></div>
 <div class="text-center"><h1>Documents</h1></div>
 
 ## Portals

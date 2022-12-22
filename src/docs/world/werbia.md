@@ -5,14 +5,13 @@ tags:
     - World
 description: The World of Werbia formerly known as the **World of Sundir** during 1985-1994 is a world in the B2 Cluster.
 ---
-<nav class="text-sm breadcrumbs">
+<nav class="text-sm breadcrumbs mb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
         <li><b>Werbia</b></li>
     </ul>
 </nav>
-<div class="divider"></div>
 <div class="text-center"><h1>World of Werbia</h1></div>
 
 <div class="alert shadow-lg mb-5">

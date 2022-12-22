@@ -6,7 +6,7 @@ tags:
     - Post
 ---
 
-<nav class="text-sm breadcrumbs">
+<nav class="text-sm breadcrumbs mb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
@@ -14,7 +14,6 @@ tags:
         <li><b>Transcript 1</b></li>
     </ul>
 </nav>
-<div class="divider"></div>
 <div class="text-center"><h1>Transcript 1</h1></div>
 
 <div class="grid gap-5 mb-5">

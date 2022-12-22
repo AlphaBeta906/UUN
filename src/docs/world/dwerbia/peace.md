@@ -7,7 +7,7 @@ tags:
 description: The Darker Werbia Peace Negotiations of 2000 was a failed peace negotiation between Darker Werbia, specifically Ikrayi, and the UUN. Negotiations started on May 5th, 2000, and ended on May 21st, 2000.
 ---
 
-<nav class="text-sm breadcrumbs">
+<nav class="text-sm breadcrumbs mb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
@@ -15,7 +15,6 @@ description: The Darker Werbia Peace Negotiations of 2000 was a failed peace neg
         <li><b>Darker Werbia Peace Negotiations of 2001</b></li>
     </ul>
 </nav>
-<div class="divider"></div>
 <div class="text-center"><h1>Darker Werbia Peace Negotiations of 2001</h1></div>
 
 <div class="grid gap-5 mb-5">

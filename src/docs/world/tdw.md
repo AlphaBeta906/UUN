@@ -6,14 +6,13 @@ tags:
     - World
 description: The Darkest World is in the (any cluster), and was discovered by accident on September 4th, 1994
 ---
-<nav class="text-sm breadcrumbs">
+<nav class="text-sm breadcrumbs mb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
         <li><b>The Darkest World</b></li>
     </ul>
 </nav>
-<div class="divider"></div>
 <div class="text-center"><h1>The Darkest World</h1></div>
 
 <div class="grid gap-5 mb-5">
@@ -40,7 +39,7 @@ description: The Darkest World is in the (any cluster), and was discovered by ac
         {% include "info.njk" %}
         <span>
             <b>Classification:</b> <span class="text-orange-500">Stage 2 - In Research</span><br>
-            <b>Frequency: 298.0861</b> 
+            <b>Frequency:</b> 298.0861
         </span>
     </div>
 </div>

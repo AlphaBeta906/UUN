@@ -4,14 +4,13 @@ layout: layouts/index.njk
 tags:
     - Protocol
 ---
-<nav class="text-sm breadcrumbs">
+<nav class="text-sm breadcrumbs mb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/protocol">Protocols</a></li>
         <li><b>World Progression Classification</b></li>
     </ul>
 </nav>
-<div class="divider"></div>
 <div class="text-center"><h1>World Progression Classification</h1></div>
 
 The **World Progression Classification** (**WPC**), issued by C/GAR/0013, is a classification tool used to designate integration with the UUN.

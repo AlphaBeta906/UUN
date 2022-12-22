@@ -6,7 +6,7 @@ tags:
     - World
 description: The World of Error was a world that existed between June 7th, 2001 00:22:38 UTC and June 7th, 2001 00:23:46 UTC.
 ---
-<nav class="text-sm breadcrumbs">
+<nav class="text-sm breadcrumbs mb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
@@ -14,7 +14,6 @@ description: The World of Error was a world that existed between June 7th, 2001 
         <li><b>World of Error</b></li>
     </ul>
 </nav>
-<div class="divider"></div>
 <div class="text-center"><h1>World of Error</h1></div>
 
 <div class="grid gap-5 mb-5">

@@ -7,14 +7,13 @@ tags:
 description: The World of Mitnavner is a world in the A8 Cluster. It was disovered in January 6th, 1999 and research started in July 26th, 2002
 ---
 
-<nav class="text-sm breadcrumbs">
+<nav class="text-sm breadcrumbs mb-5">
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
         <li><b>Mitnavner</b></li>
     </ul>
 </nav>
-<div class="divider"></div>
 <div class="text-center"><h1>World of Mitnavner</h1></div>
 
 <div class="grid gap-5 mb-5">
