@@ -23,7 +23,7 @@ tags:
         <a href="/docs/world/aztrax/" class="text-green-500">Aztrax</a> <div class="badge badge-error font-extrabold">NOT AVAILABLE</div>
     </li>
     <li>
-        <a href="/docs/world/scestonia/major/" class="text-green-500">Major Scestonia</a>
+        <a href="/docs/world/scestonia/" class="text-green-500">Scestonia</a>
     </li>
     <li>
         <a href="/docs/world/werbia/" class="text-green-500">Werbia</a>
@@ -40,8 +40,5 @@ tags:
     </li>
     <li>
         <a href="/docs/world/tdw/" class="text-orange-500">The Darkest World</a>
-    </li>
-    <li>
-        <a href="/docs/world/scestonia/nova/" class="text-amber-500">Nova Scestonia</a>
     </li>
 </ul>

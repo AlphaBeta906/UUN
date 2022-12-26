@@ -2,7 +2,7 @@
 title: Scestonia (disambiguation)
 layout: layouts/index.njk
 tags:
-    - Navigation
+    - World
 ---
 
 <nav class="text-sm breadcrumbs mb-5">
@@ -12,18 +12,18 @@ tags:
         <li><b>Scestonia</b></li>
     </ul>
 </nav>
-<div class="text-center"><h1>Scestonia (disambiguation)</h1></div>
+<div class="text-center"><h1>World of Scestonia</h1></div>
 
-<div class="alert alert-info shadow-lg mb-5">
+<div class="alert shadow-lg mb-5">
     <div>
-        {% include "disambig.njk" %}
+        {% include "info.njk" %}
         <span>
-        This page is a disambiguation page for Scestonia. The following is a list of links to pages that might share the same title.
+            <b>Classification:</b> <span class="text-green-500">Open World</span><br>
+            <b>Frequency:</b> 287.6507
         </span>
     </div>
 </div>
 
-The word "Scestonia" may refer to:
-* <a href="/docs/world/scestonia/world/">Scestonia (world)</a> - A world in the B8 cluster which is the world of Major and Nova Scestonia.
-* <a href="/docs/world/scestonia/major/">Major Scestonia</a> - A planet which is open to cross-world visitors.
-* <a href="/docs/world/scestonia/nova/">Nova Scestonia</a> - A planet which is not open to cross-world visitors.
+<i>This article is about the World of Scestonia. For other uses see <a href="/docs/world/scestonia/disambig/">Scestonia (disambiguation)</a>.</i><br><br>
+
+The **World of Scestonia** world in the B8 cluster which is the world of Major and Nova Scestonia. It has two planets <a href="/docs/world/scestonia/major">Major Scestonia</a> and <a href="/docs/world/scestonia/major">Nova Scestonia</a>.
