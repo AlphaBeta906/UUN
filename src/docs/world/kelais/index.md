@@ -36,7 +36,7 @@ description: The World of Kelais is a world in the A8 Cluster. It was discovered
 </div>
 </div>
 
-<figure class="float-left mr-[20px] w-[200px]">
+<figure class="float-right mr-[20px] w-[200px]">
 <a href="/assets/img/Mastistan_map.png">
 <img class="h-[150px] w-auto" src="/assets/img/Mastistan_map.png" alt="Mastistan map" />
 </a>
@@ -46,6 +46,8 @@ description: The World of Kelais is a world in the A8 Cluster. It was discovered
 The **World of Kelais**[^1] is a world in the A8 Cluster. The landform of Kelais is mostly made of peninsula and few island nations. It was discovered in January 6th, 1999, and research started in June 29th, 2002 on Yibble. There are human-like peoples living in the regions that we surveyed. The air being tested as livable.<br><br>
 
 On August 23rd, 2002, the site in Samarin was founded and on September 6th, 2002, Mastistan was mapped by the Kelais Reconnaissance Orbiter, a rudimentary satellite which provides a basic system of mapping which provides less accurate results and a GPS.
+
+[[toc]]
 
 ## Locations
 
