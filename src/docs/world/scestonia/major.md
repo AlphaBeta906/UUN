@@ -25,4 +25,4 @@ description: Major Scestonia often referred to Scestonia B is a planet in the Wo
     </div>
 </div>
 
-**Major Scestonia** often referred to **Scestonia B** is a planet in the <a href="/docs/world/scestonia/world">World of Scestonia</a>. It was discovered in 1978 where Alphat workers went to find worlds after the discovery of world teleporters. When the UUN integrated Alphat, Major Scestonia was integrated within a year of the UUN's discovery of Alphat.
+**Major Scestonia** often referred to **Scestonia β** is a planet in the <a href="/docs/world/scestonia/world">World of Scestonia</a>. It was discovered in 1978 where Alphat workers went to find worlds after the discovery of world teleporters. When the UUN integrated Alphat, Major Scestonia was integrated within a year of the UUN's discovery of Alphat.
