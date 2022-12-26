@@ -9,7 +9,8 @@ tags:
     <ul>
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
-        <li><b>Scestonia</b></li>
+        <li><a href="/docs/world/scestonia">Scestonia</a></li>
+        <li><b>World of Scestonia</b></li>
     </ul>
 </nav>
 <div class="text-center"><h1>World of Scestonia</h1></div>
