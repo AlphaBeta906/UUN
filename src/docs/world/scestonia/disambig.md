@@ -16,6 +16,6 @@ tags:
 </div>
 
 The word "Scestonia" may refer to:
-* <a href="/docs/world/scestonia/world/">Scestonia (world)</a> - A world in the B8 cluster which is the world of Major and Nova Scestonia.
+* <a href="/docs/world/scestonia/">Scestonia (world)</a> - A world in the B8 cluster which is the world of Major and Nova Scestonia.
 * <a href="/docs/world/scestonia/major/">Major Scestonia</a> - A planet which is open to cross-world visitors.
 * <a href="/docs/world/scestonia/nova/">Nova Scestonia</a> - A planet which is not open to cross-world visitors.

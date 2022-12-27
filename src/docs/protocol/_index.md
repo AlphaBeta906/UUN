@@ -26,6 +26,9 @@ tags:
     <li>
         <a href="/docs/protocol/clearance/">Clearance Levels</a>
     </li>
+    <li>
+        <a href="/docs/protocol/csm/">Cross-World Security Measures</a>
+    </li>
 </ul>
 
 ## Programs
