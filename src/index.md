@@ -3,9 +3,9 @@ title: Home
 layout: layouts/indexnoad.njk
 ---
 <div class="flex w-[100%] gap-5">
-	<div class="card lg:card-side bg-blue-500 dark:bg-blue-400 shadow-xl text-primary-content w-[60%]">
+	<div class="card bg-blue-500 dark:bg-blue-400 shadow-xl text-primary-content w-[60%]">
 		<figure>
-			<img src="/assets/img/Homepage_main.jpg" alt="Movie" class="w-min"/>
+			<img src="/assets/img/Homepage_main.jpg" alt="Movie" class="w-min h-auto" />
 		</figure>
 		<div class="card-body">
 			<span class="card-title text-2xl font-bold">Welcome to the UUN</span>
