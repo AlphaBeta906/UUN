@@ -1,5 +1,5 @@
 ---
-title: World of Werbia
+title: Major Scestonia
 layout: layouts/index.njk
 tags:
     - World

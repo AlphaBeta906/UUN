@@ -1,5 +1,5 @@
 ---
-title: World of Werbia
+title: Nova Scestonia
 layout: layouts/index.njk
 tags:
     - World

@@ -1,5 +1,5 @@
 ---
-title: Scestonia (disambiguation)
+title: World of Scestonia
 layout: layouts/index.njk
 tags:
     - World
