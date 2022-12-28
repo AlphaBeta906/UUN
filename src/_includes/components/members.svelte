@@ -72,7 +72,7 @@
     {#each items as [key, value]}
         <div class="card w-100 sm:w-70 bg-base-300 shadow-xl">
             <div class="card-body text-xs md:text-base">
-                <h2 class="card-title p-0 pb-2"><img src={`/assets/img/flags/${value["img"]}`} alt='Flag for a nation' class="md:h-[22.5px]" /> <span class="hidden md:block">{key}</span></h2>
+                <h2 class="card-title p-0 pb-2"><img src={`/flags/${value["img"]}`} alt='Flag for a nation' class="md:h-[22.5px]" /> <span class="hidden md:block">{key}</span></h2>
                 <p class="italic">
                     <span class="block md:hidden font-bold">{key}</span><br><br>
 
