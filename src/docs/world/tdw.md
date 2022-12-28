@@ -34,11 +34,11 @@ description: The Darkest World is in the (any cluster), and was discovered by ac
     </div>
 </div>
 
-<div class="alert shadow-lg">
+<div class="alert shadow-lg slate-color">
     <div>
         {% include "info.njk" %}
         <span>
-            <b>Classification:</b> <span class="text-orange-500">Stage 2 - In Research</span><br>
+            <b>Classification:</b> <span class="text-orange-400">Stage 2 - In Research</span><br>
             <b>Frequency:</b> 298.0861
         </span>
     </div>

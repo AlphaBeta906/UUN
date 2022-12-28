@@ -14,7 +14,7 @@ description: The World of Werbia formerly known as the World of Sundir during 19
 </nav>
 <div class="text-center"><h1>World of Werbia</h1></div>
 
-<div class="alert shadow-lg mb-5">
+<div class="alert shadow-lg slate-color mb-5">
     <div>
         {% include "info.njk" %}
         <span>

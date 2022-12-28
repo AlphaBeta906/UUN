@@ -15,11 +15,11 @@ description: Nova Scestonia also known as Scestonia C and formerly Minor Sceston
 </nav>
 <div class="text-center"><h1>Major Scestonia</h1></div>
 
-<div class="alert shadow-lg mb-5">
+<div class="alert shadow-lg slate-color mb-5">
     <div>
         {% include "info.njk" %}
         <span>
-        <b>Classification:</b> <span class="text-amber-500">Stage 3 - Political Discussions</span><br>
+        <b>Classification:</b> <span class="text-amber-400">Stage 3 - Political Discussions</span><br>
         <b>Frequency:</b> 287.6507[231]
         </span>
     </div>

@@ -34,11 +34,11 @@ description: The World of Mitnavner is a world in the A8 Cluster. It was disover
     </div>
 </div>
 
-<div class="alert shadow-lg">
+<div class="alert shadow-lg slate-color">
     <div>
         {% include "info.njk" %}
         <span>
-            <b>Classification:</b> <span class="text-orange-500">Stage 2 - In Research</span><br>
+            <b>Classification:</b> <span class="text-orange-400">Stage 2 - In Research</span><br>
             <b>Frequency:</b> 086.8762
         </span>
     </div>

@@ -13,7 +13,7 @@ tags:
 </nav>
 <div class="text-center"><h1>World of Alphat</h1></div>
 
-<div class="alert shadow-lg mb-5">
+<div class="alert shadow-lg slate-color mb-5">
     <div>
         {% include "info.njk" %}
         <span>

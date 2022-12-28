@@ -48,6 +48,14 @@ ion-icon {
     flex-shrink: 0;
 }
 
+.slate-color {
+    @apply bg-slate-300 dark:bg-slate-700 text-black dark:text-white
+}
+
+.alert {
+    @apply rounded-[6px]
+}
+
 .breadcrumbs > ul > li > a {
     @apply hover:no-underline;
 }
@@ -63,7 +71,7 @@ ion-icon {
 }
 
 .table-of-contents {
-    @apply table shadow-lg p-[15px] w-max mt-4 rounded-lg bg-white dark:bg-gray-500 text-black dark:text-slate-200;
+    @apply table shadow-lg p-[15px] w-max mt-4 rounded-[6px] slate-color text-black dark:text-slate-200;
 
     ul {
         list-style-type: none;

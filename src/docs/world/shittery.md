@@ -24,7 +24,7 @@ tags:
     </div>
 </div>
 
-<div class="alert shadow-lg">
+<div class="alert shadow-lg slate-color">
     <div>
         {% include "info.njk" %}
         <span>

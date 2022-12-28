@@ -33,12 +33,12 @@ tags:
 ## Worlds in Research
 <ul>
     <li>
-        <a href="/docs/world/kelais/" class="text-orange-500">Kelais</a>
+        <a href="/docs/world/kelais/" class="text-orange-400">Kelais</a>
     </li>
     <li>
-        <a href="/docs/world/mitnavner/" class="text-orange-500">Mitnavner</a>
+        <a href="/docs/world/mitnavner/" class="text-orange-400">Mitnavner</a>
     </li>
     <li>
-        <a href="/docs/world/tdw/" class="text-orange-500">The Darkest World</a>
+        <a href="/docs/world/tdw/" class="text-orange-400">The Darkest World</a>
     </li>
 </ul>

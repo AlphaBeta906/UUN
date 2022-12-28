@@ -33,7 +33,7 @@ description: The World of Error was a world that existed between June 7th, 2001 
             </span>
         </div>
     </div>
-    <div class="alert shadow-lg">
+    <div class="alert shadow-lg slate-color">
         <div>
             {% include "info.njk" %}
             <span>

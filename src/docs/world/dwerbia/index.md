@@ -32,7 +32,7 @@ description: Darker Werbia is an world similar to Werbia; if it branched from We
             </span>
         </div>
     </div>
-    <div class="alert shadow-lg">
+    <div class="alert shadow-lg slate-color">
         <div>
             {% include "info.njk" %}
             <span>
