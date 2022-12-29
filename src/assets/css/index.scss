@@ -56,6 +56,14 @@ ion-icon {
     @apply rounded-[6px]
 }
 
+.card {
+    @apply rounded-[6px]
+}
+
+.button {
+    @apply rounded-[6px]
+}
+
 .breadcrumbs > ul > li > a {
     @apply hover:no-underline;
 }

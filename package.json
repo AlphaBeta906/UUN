@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf _site",
     "serve:css": "tailwindcss -i src/assets/css/index.scss -o _site/assets/css/index.css --watch --postcss",
-    "serve:eleventy": "ELEVENTY_ENV=development eleventy --serve",
+    "serve:eleventy": "ELEVENTY_ENV=development eleventy --serve --quiet",
     "serve": "npm-run-all clean --parallel serve:*",
     "build:css": "tailwindcss -i src/assets/css/index.scss -o _site/assets/css/index.css --postcss",
     "build:eleventy": "ELEVENTY_ENV=production eleventy",

@@ -22,7 +22,7 @@ npm install
 npm run serve
 ```
 
-This starts the Slinkity dev server with the `--incremental` flag.
+This starts the Slinkity dev server with the `--incremental` and `--quiet` flags.
 
 ## Building for production
 
