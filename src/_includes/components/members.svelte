@@ -20,7 +20,7 @@
             world: "Werbia",
             date: "August 27th, 1979"
         },
-        "Atelia": {
+        "Cornia": {
             img: "Cornia.png",
             world: "Werbia",
             date: "August 27th, 1979"
