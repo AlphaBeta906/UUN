@@ -75,7 +75,7 @@ module.exports = config => {
         })
 
     markdownLib.renderer.rules.footnote_block_open = () => (
-        '<div class="divider"></div><section><ol>'
+        '<div class="divider"></div><section><ol class="list-decimal">'
     )
 
     config.setLibrary("md", markdownLib);

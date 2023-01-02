@@ -37,22 +37,20 @@ description: The World of Kelais is a world in the A8 Cluster. It was discovered
 </div>
 
 <figure class="float-right mr-[20px] w-[200px]">
-<a href="/assets/img/Mastistan_map.png">
-<img class="h-[150px] w-auto" src="/assets/img/Mastistan_map.png" alt="Mastistan map" />
-</a>
-<figcaption class="text-slate-700 dark:text-slate-300 break-normal">Map of Mastistan (current stations as of September 2002 are marked in red)</figcaption>
+<img class="w-[300px]" src="/assets/img/Kelais_map.png" alt="A map of Cynetia and Mastistan" />
+<figcaption class="text-slate-700 dark:text-slate-300 break-normal">The current official map of Kelais from the Kelais Reconnaissance Orbiter (current sites as of October 2002 are marked in maroon)</figcaption>
 </figure>
 
-The **World of Kelais**[^1] is a world in the A8 Cluster. The landform of Kelais is mostly made of peninsula and few island nations. It was discovered in January 6th, 1999, and research started in June 29th, 2002 on Yibble. There are human-like peoples living in the regions that we surveyed. The air being tested as livable.<br><br>
+The **World of Kelais**^[The name "kelais" is the name for their planet.] is a world in the A8 Cluster. The landform of Kelais is mostly made of peninsula and few island nations. It was discovered in January 6th, 1999, and research started in June 29th, 2002 on Yibble. There are human-like peoples living in the regions that we surveyed. The air being tested as livable.<br><br>
 
-On August 23rd, 2002, the site in Samarin was founded and on September 6th, 2002, Mastistan was mapped by the Kelais Reconnaissance Orbiter, a rudimentary satellite which provides a basic system of mapping which provides less accurate results and a GPS.
+On August 23rd, 2002, the site in Samarin was founded and on September 6th, 2002, Mastistan was mapped by the Kelais Reconnaissance Orbiter, followed by Cynetia on October 7th, 2002, a rudimentary satellite which provides a basic system of mapping which provides less accurate results and a GPS.
 
 [[toc]]
 
 ## Locations
 
 ### Yibble
-Yibble is the primary base of operations of the Kelais Research Team. It is next to a river, known by them as the "Masta' River," which borders another nation called Mastistan. The locals of Yibble speak English, however they refer to it as Anglese.
+Yibble is the primary base of operations of the Kelais Research Team. It is next to a river, known by them as the Masa River which borders another nation called Mastistan. The locals of Yibble speak English, however they refer to it as Anglese.
 
 ### Samarin
 <div class="alert alert-warning shadow-lg mb-5">
@@ -64,5 +62,3 @@ Samarin is a village in the desert of Mastistan, with it's nearest city being No
 
 <div class="divider"></div> 
 <a href="/docs/world/kelais/update-1">➥ Kelais Update 1</a>
-
-[^1]: The name "kelais" is the name for their planet.
