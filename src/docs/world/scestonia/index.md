@@ -18,7 +18,7 @@ tags:
     <div>
         {% include "info.njk" %}
         <span>
-            <b>Classification:</b> <span class="text-gray-700 dark:text-gray-300">Uncertain; depends on location</span><br>
+            <b>Classification:</b> <span class="text-green-500">Open World</span><br>
             <b>Frequency:</b> 287.6507
         </span>
     </div>
@@ -26,4 +26,6 @@ tags:
 
 <i>This article is about the World of Scestonia. For other uses see <a href="/docs/world/scestonia/disambig/">Scestonia (disambiguation)</a>.</i><br><br>
 
-The **World of Scestonia** world in the B8 cluster, and was discovered by discovered by Alphat workers who went to find worlds after the discovery of worldports in 1978. It has two planets <a href="/docs/world/scestonia/major">Major Scestonia</a> and <a href="/docs/world/scestonia/nova">Nova Scestonia</a>. Due to distiguishing seperations between the two planets, they are considered as their own worlds.
+The **World of Scestonia** world in the B8 cluster, and was discovered by discovered by Alphat workers who went to find worlds after the discovery of worldports in 1978. It has two planets <a href="/docs/world/scestonia/major">Major Scestonia</a> and <a href="/docs/world/scestonia/nova">Nova Scestonia</a>. Due to distiguishing seperations between the two planets, they are considered as their own worlds.<br><br>
+
+The world is generally considered as an open world, however Nova Scestonia does not allow cross-world visitors to enter.
