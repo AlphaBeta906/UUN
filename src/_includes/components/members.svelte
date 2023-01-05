@@ -75,7 +75,7 @@
 </script>
 
 <center>
-    <button on:click={reverse} class="btn mb-5 md:btn-lg">
+    <button on:click={reverse} class="btn mb-5 md:btn-lg text-black dark:text-white">
         Reverse
     </button>
 </center>
