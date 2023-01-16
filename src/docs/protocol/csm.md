@@ -13,12 +13,12 @@ tags:
 </nav>
 <div class="text-center"><h1>Cross-World Security Measures</h1></div>
 
-The **Cross-World Security Measures** (**CSM**), are 2 treaties which are the Soves Convention, and the Antronia Convention, as well as the Neuverian Special Agreements, that establish security protocols regarding cross-world travel.
+The **Cross-World Security Measures** (**CSM**), are 2 treaties which are the Thrician Convention, and the Antronia Convention, as well as the Neuverian Special Agreements, that establish security protocols regarding cross-world travel.
 
 ## Contents
 
-### Thricia Convention
-The Thricia Convention, adopted on 1981 and revised on 1999, was a response to the growing panic regarding cross-world safety after the Thricia National Cross-World Worldport accident, killing 27 people. The Thricia Convention sets a standard for future models of worldports so as to not kill passengers, in addition to safety guidelines for worldport staff and mechanics to not accidentally harm passengers, bystanders and other crew.
+### Thrician Convention
+The Thrician Convention, adopted on 1981 and revised on 1999, was a response to the growing panic regarding cross-world safety after the Thricia National Cross-World Worldport accident, killing 27 people. The Thrician Convention sets a standard for future models of worldports so as to not kill passengers, in addition to safety guidelines for worldport staff and mechanics to not accidentally harm passengers, bystanders and other crew.
 
 ### Antronia Convention
 The Antronia Convention, adopted on 1987 and revised on 2002, was a response to the Antronian Cross-World Worldport Terminal 4 bombing, where an Alphadonian armed with yet to be known technology stolen from Alpha Inc, bombed the Terminal Killing, 567 people and injuring 4,508 others.<br><br>

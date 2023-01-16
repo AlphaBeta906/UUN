@@ -18,7 +18,7 @@ All members of the UUN are given access to official documents and data to help t
 ## Clearance Levels
 
 ### Level 1 Clearance
-Level 0 security clearances is only used for non-essential personnel, whom have no need to access information such as clerical, logistics, and janitorial staff.
+Level 1 security clearances is only used for non-essential personnel, whom have no need to access information such as clerical, logistics, and janitorial staff.
 
 ### Level 2 Clearance
 Level 2 security clearances is only used for those in research teams, field agents, and others whom require direct access sensitive data as part of their work in the UUN. 

@@ -16,7 +16,7 @@
 npm install
 ```
 
-(For Yarn users keep the package-lock.json, otherwise the build will break)
+(For Yarn users keep the `package-lock.json`, otherwise the build will break.)
 
 ## Running the dev server
 
