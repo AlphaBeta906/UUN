@@ -1,7 +1,6 @@
 ---
 title: Credits
 layout: layouts/index.njk
-permalink: /credits/
 ---
 <div class="text-center"><h1>Credits</h1></div>
 

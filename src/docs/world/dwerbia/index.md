@@ -43,8 +43,7 @@ description: Darker Werbia is an world similar to Werbia; if it branched from We
     </div>
 </div>
 
-## Abstract
-**Darker Werbia** is an world similar to <a href="/docs/world/werbia/">Werbia</a>; if it branched from Werbia is unknown. The world was found on September 4th, 1998; research started on December 23rd, 1998, and ended on February 7th, 1999.<br><br>
+**Darker Werbia** is an world similar to <a href="/docs/world/werbia/">Werbia</a>; if it branched from Werbia is unknown. The world was found on September 4th, 1998, research started on December 23rd, 1998, and ended on February 7th, 1999.<br><br>
 
 On May 17th, 2000, a television hijacking was successfully attempted by Ikrayi, one of the nations central to Darker Werbia. The content of the message was a threat to bomb the UUN headquarters in Aztrax, Werbia, The Darkest World, Ralphat and Alphat respectively, with the end showing a list of frequencies. No action was taken by the UUN however buildings were evacuated.<br><br>
 

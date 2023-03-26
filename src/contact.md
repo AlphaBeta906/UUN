@@ -1,7 +1,6 @@
 ---
 title: Contact
 layout: layouts/index.njk
-permalink: /contact/
 eleventyNavigation:
   key: Contact
   order: 3

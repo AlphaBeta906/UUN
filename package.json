@@ -28,7 +28,7 @@
     "theme-change": "^2.2.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@slinkity/renderer-svelte": "^1.0.0",
     "cz-conventional-changelog": "^3.3.0",

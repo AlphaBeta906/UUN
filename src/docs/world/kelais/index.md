@@ -43,7 +43,9 @@ description: The World of Kelais is a world in the A8 Cluster. It was discovered
 
 The **World of Kelais**^[The name "kelais" is the name for their planet.] is a world in the A8 Cluster. The landform of Kelais is mostly made of peninsula and few island nations. It was discovered in January 6th, 1999, and research started in June 29th, 2002 on Yibble. There are human-like peoples living in the regions that we surveyed. The air being tested as livable.<br><br>
 
-On August 23rd, 2002, the site in Samarin was founded and on September 6th, 2002, Mastistan was mapped by the Kelais Reconnaissance Orbiter, followed by Cynetia on October 7th, 2002, a rudimentary satellite which provides a basic system of mapping which provides less accurate results and a GPS.
+On August 23rd, 2002, the site in Samarin was founded and on September 6th, 2002, Mastistan was mapped by the Kelais Reconnaissance Orbiter, followed by Cynetia on October 7th, 2002, a rudimentary satellite which provides a basic system of mapping which provides less accurate results and a GPS. The Kelais Reconnaissance Orbiter has yet to be discovered by Kelais Space Agencies.
+
+On January 6th, 2003, a site near Divore was founded, which was the base of operations for front organizations to funnel funds for other research ventures.
 
 [[toc]]
 
@@ -59,6 +61,9 @@ Yibble is the primary base of operations of the Kelais Research Team. It is next
 <span>Please be advised that the worldport leading to the site in Samarin is unstable, usage of the worldport may lead to death if the worldport closes. Please use the worldport with risk, and only when needed.</span></div></div>
 
 Samarin is a village in the desert of Mastistan, with it's nearest city being Nottelocale, and is the base of operations for GPS, map data and other satellites. Samarin does not speak Anglese, only having an elder who knows basic Anglese.
+
+### Divore
+Divore is the capital of Cynetia, near a river. Like Yibble, the locals of Divore speak Anglese.
 
 <div class="divider"></div> 
 <a href="/docs/world/kelais/update-1">➥ Kelais Update 1</a>

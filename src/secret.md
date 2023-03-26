@@ -1,7 +1,6 @@
 ---
 title: NOT A SECRET PAGE
 layout: layouts/indexnoad.njk
-permalink: /secret/
 secret: true
 ---
 <div class="text-center">

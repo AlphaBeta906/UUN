@@ -1,7 +1,6 @@
 ---
 title: About
 layout: layouts/index.njk
-permalink: /about/
 eleventyNavigation:
   key: About
   order: 0
@@ -21,6 +20,7 @@ The United Universal Nations is a cross-world organization dedicated to creating
 
 <div class="divider"></div>
 <a href="/credits/">➥ Credits</a>
+<a href="/about/member-states/">➥ Member States</a>
 
 <!--
 
