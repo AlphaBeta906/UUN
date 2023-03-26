@@ -19,7 +19,7 @@ eleventyNavigation:
 The United Universal Nations is a cross-world organization dedicated to creating universal peace between the member nations.
 
 <div class="divider"></div>
-<a href="/credits/">➥ Credits</a>
+<a href="/credits/">➥ Credits</a><br>
 <a href="/about/member-states/">➥ Member States</a>
 
 <!--

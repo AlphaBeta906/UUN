@@ -29,7 +29,7 @@ description: The World of Kelais is a world in the A8 Cluster. It was discovered
     <div>
     {% include "info.njk" %}
     <span>
-        <b>Classification:</b> <span class="text-orange-400">Stage 2 - In Research</span><br>
+        <b>Classification:</b> <span class="text-amber-400">Stage 3 - Political Discussions</span><br>
         <b>Frequency:</b> 087.9971
     </span>
     </div>
@@ -43,9 +43,9 @@ description: The World of Kelais is a world in the A8 Cluster. It was discovered
 
 The **World of Kelais**^[The name "kelais" is the name for their planet.] is a world in the A8 Cluster. The landform of Kelais is mostly made of peninsula and few island nations. It was discovered in January 6th, 1999, and research started in June 29th, 2002 on Yibble. There are human-like peoples living in the regions that we surveyed. The air being tested as livable.<br><br>
 
-On August 23rd, 2002, the site in Samarin was founded and on September 6th, 2002, Mastistan was mapped by the Kelais Reconnaissance Orbiter, followed by Cynetia on October 7th, 2002, a rudimentary satellite which provides a basic system of mapping which provides less accurate results and a GPS. The Kelais Reconnaissance Orbiter has yet to be discovered by Kelais Space Agencies.
+On August 23rd, 2002, the site in Samarin was founded and on September 6th, 2002, Mastistan was mapped by the Kelais Reconnaissance Orbiter, followed by Cynetia on October 7th, 2002, a rudimentary satellite which provides a basic system of mapping which provides less accurate results and a GPS. The Kelais Reconnaissance Orbiter has yet to be discovered by Kelais Space Agencies.<br><br>
 
-On January 6th, 2003, a site near Divore was founded, which was the base of operations for front organizations to funnel funds for other research ventures.
+On January 6th, 2003, a site near Divore was founded, which was the base of operations for front organizations to funnel funds for other research ventures. On March 16th, 2003, the Kelais Research Team ended all Kelais research operations, and declared Kelais to be a Stage 3 world. Political discussions with Cynetia and Mastistan are ongoing.
 
 [[toc]]
 

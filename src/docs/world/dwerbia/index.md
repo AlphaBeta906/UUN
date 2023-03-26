@@ -47,9 +47,9 @@ description: Darker Werbia is an world similar to Werbia; if it branched from We
 
 On May 17th, 2000, a television hijacking was successfully attempted by Ikrayi, one of the nations central to Darker Werbia. The content of the message was a threat to bomb the UUN headquarters in Aztrax, Werbia, The Darkest World, Ralphat and Alphat respectively, with the end showing a list of frequencies. No action was taken by the UUN however buildings were evacuated.<br><br>
 
-On May 1st, 2000, the UUN headquarters in Alphat exploded during evacuation, with twenty-seven people injured and three deaths. Ikrayi terrorists^[Terrorism is defined as the use of violence to achieve ideological or theological means.] attempted to bomb Werbia, however the building was evacuated.<br><br>
+On June 1st, 2000, the UUN headquarters in Alphat exploded during evacuation, with twenty-seven people injured and three deaths. Ikrayi terrorists^[Terrorism is defined as the use of violence to achieve ideological or theological means.] attempted to bomb Werbia, however the building was evacuated.<br><br>
 
-Peace negotiations ended started on May 5th, 2000, and ended on May 21st, 2000, with no agreements. On July 2th, 2000, by direct order initiated by S/RES/0007, a special reconnaissance military operation by drones. The war between Ikrayi and the UUN started on July 7th, 2000, with multiple insuccesful attempts to nuke major cities on midnight UTC. However, the <a href="/docs/world/dwerbia/error">World of Error</a> appeared June 7th, 2001 00:22:38 UTC and June 7th, 2001 00:23:46 UTC, cutting off connections between Darker Werbia and all worldports.
+Peace negotiations ended started on June 5th, 2000, and ended on June 21st, 2000, with no agreements. On July 2th, 2000, by direct order initiated by S/RES/0007, a special reconnaissance military operation by drones. The war between Ikrayi and the UUN started on July 7th, 2000, with multiple insuccesful attempts to nuke major cities on 00:00:00 UTC, due to the <a href="/docs/world/dwerbia/error">World of Error</a> appearing on June 7th, 2001 23:59:38 UTC and June 7th, 2001 00:00:46 UTC, cutting off connections between Darker Werbia and all worldports.
 
 <div class="divider"></div> 
 <a href="/docs/world/dwerbia/transcript-1">➥ Transcript 1</a>

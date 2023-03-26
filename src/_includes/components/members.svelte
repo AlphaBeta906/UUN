@@ -56,6 +56,11 @@
             img: "Unknown.png",
             world: "Werbia",
             date: "August 27th, 1979"
+        },
+        "United Oceanic Federation": {
+            img: "UOF.png",
+            world: "Aztrax",
+            date: "August 27th, 1979"
         }
     }
 

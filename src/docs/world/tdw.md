@@ -4,7 +4,7 @@ layout: layouts/index.njk
 link-citations: true
 tags:
     - World
-description: The Darkest World is in the (any cluster), and was discovered by accident on September 4th, 1994
+description: The Darkest World is in the B8 Cluster, and was discovered by accident on September 4th, 1994
 ---
 <nav class="text-sm breadcrumbs mb-5">
     <ul>
@@ -38,7 +38,7 @@ description: The Darkest World is in the (any cluster), and was discovered by ac
     <div>
         {% include "info.njk" %}
         <span>
-            <b>Classification:</b> <span class="text-orange-400">Stage 2 - In Research</span><br>
+            <b>Classification:</b> <span class="text-amber-400">Stage 3 - Political Discussions</span><br>
             <b>Frequency:</b> 298.0861
         </span>
     </div>
@@ -47,11 +47,13 @@ description: The Darkest World is in the (any cluster), and was discovered by ac
 
 **The World of Nox**, often referred to as the **The Darkest World** (**TDW**) is in the B8 Cluster, and was discovered by accident on September 4th, 1994. The world, when discovered, had a high concentration of uranium and other radioactive elements, and was used illegally by member countries as a dumping ground for radioactive waste, believing it was uninhabited. The world has a high concentration of radioactive elements, and it is recommended for people to use hazmat suits when going outside.<br><br>
 
-Research suggests that The Darkest World was a result of a nuclear war, which caused the high radioactive levels. Research about intent, security, and ethics are still ongoing, wether to continue researching The Darkest World or to end it in fear of an attack to the UUN. Research to The Darkest World was suspended with the <a href="/docs/world/dwerbia/transcript-1">Ikrayi signal hijacking</a> of multiple broadcast networks. Multiple assembly hearings has been conducted to renew research to The Darkest World.
+Research suggests that The Darkest World was a result of a nuclear war, which caused the high radioactive levels. Research to The Darkest World was suspended on June 2nd, 2000, due to the Ikrayi bombing of the Alphat UUN Headquarters.<br><br>
+
+On Febuary 4th, 2003, research was reinstated by C/GAR/0025 with Alphat, Aztrax and Scestonia voting for, with Werbia voting against. Currently, as of March 20th, 2003, research is finally reaching its final stages, with Permistani and Lavilcian diplomats in talks with UUN officials.
 
 ## Locations
 
 ### Aral Sea
-The Aral Sea is a near-dried up lake which is the least radioactive part of the planet. It was used as a base of operations due to it's near radio silence and desert environment which was used as camouflage.<br><br>
+The Aral Sea is a near-dried up lake which is the least radioactive part of the planet. It was used as a base of operations due to its near radio silence and desert environment which was used as camouflage.<br><br>
 
 The base was deep underground, and layered with frozen CO2, and has advanced security measures to prevent raids.
