@@ -38,7 +38,7 @@ description: The World of Kelais is a world in the A8 Cluster. It was discovered
 
 <figure class="float-right mr-[20px] w-[200px]">
 <img class="w-[300px]" src="/assets/img/Kelais_map.png" alt="A map of Cynetia and Mastistan" />
-<figcaption class="text-slate-700 dark:text-slate-300 break-normal">The current official map of Kelais from the Kelais Reconnaissance Orbiter (current sites as of October 2002 are marked in maroon)</figcaption>
+<figcaption class="text-slate-700 dark:text-slate-300 break-normal">The current official map of Kelais from the Kelais Reconnaissance Orbiter (current sites as of March 2003 are marked in maroon)</figcaption>
 </figure>
 
 The **World of Kelais**^[The name "kelais" is the name for their planet.] is a world in the A8 Cluster. The landform of Kelais is mostly made of peninsula and few island nations. It was discovered in January 6th, 1999, and research started in June 29th, 2002 on Yibble. There are human-like peoples living in the regions that we surveyed. The air being tested as livable.<br><br>
