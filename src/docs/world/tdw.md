@@ -45,7 +45,7 @@ description: The Darkest World is in the B8 Cluster, and was discovered by accid
 </div>
 </div>
 
-**The World of Nox**, often referred to as the **The Darkest World** (**TDW**) is in the B8 Cluster, and was discovered by accident on September 4th, 1994. The world, when discovered, had a high concentration of uranium and other radioactive elements, and was used illegally by member countries as a dumping ground for radioactive waste, believing it was uninhabited. The world has a high concentration of radioactive elements, and it is recommended for people to use hazmat suits when going outside.<br><br>
+**The World of Nox**, often referred to as **The Darkest World** (**TDW**) is a world in the B8 Cluster, and was discovered by accident on September 4th, 1994. The world, when discovered, had a high concentration of uranium and other radioactive elements, and was used illegally by member countries as a dumping ground for radioactive waste, believing it was uninhabited. The world has a high concentration of radioactive elements, and it is recommended for people to use hazmat suits when going outside.<br><br>
 
 Research suggests that The Darkest World was a result of a nuclear war, which caused the high radioactive levels. Research to The Darkest World was suspended on June 2nd, 2000, due to the Ikrayi bombing of the Alphat UUN Headquarters.<br><br>
 
