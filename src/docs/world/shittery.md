@@ -19,6 +19,15 @@ tags:
     <div>
         {% include "warning.njk" %}
         <span>
+        This page has been shadow-hidden for safety purposes. Please share this page on your own risk.
+        </span>
+    </div>
+</div>
+
+<div class="alert alert-error shadow-lg">
+    <div>
+        {% include "warning.njk" %}
+        <span>
             This page is protected under C/RES/0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of the UUN, will result in termination.
         </span>
     </div>

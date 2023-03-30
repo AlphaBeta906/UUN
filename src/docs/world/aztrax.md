@@ -1,5 +1,5 @@
 ---
-title: World of Alphat
+title: World of Aztrax
 layout: layouts/index.njk
 tags:
     - World
