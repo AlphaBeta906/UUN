@@ -1,5 +1,5 @@
 ---
-title: World of B8-008
+title: World of 008
 layout: layouts/index.njk
 tags:
     - World
@@ -45,7 +45,7 @@ tags:
 </div>
 
 {% renderTemplate 'md' %}
-The **World of <span class="censored">Shattered Glass</span>**, more commonly reffered to as the **World of B8-008**, is a world in the <span class="censored">B8</span> Cluster. The World was revealed to exist on December 4th, 2004, when Jona Hatchenson of Lavillcia, who was a governmental agent, received a strange phone call from a supposed group called “The Broken Arrow”. Research was soon developed on the world that the Broken Arrow called <span class="censored">Shattered Glass</span>, however researchers could not discover where the world was or what cluster it was. The only thing certain about the world was its name, the fact that it had multiple countries, and the phone number of The Broken Arrow, <span class="censored">B17-483-592-5019</span>.<br><br>
+The **World of <span class="censored">Shattered Glass</span>**, more commonly reffered to as the **World of 008**, is a world in the <span class="censored">B8</span> Cluster. The World was revealed to exist on December 4th, 2004, when Jona Hatchenson of Lavillcia, who was a governmental agent, received a strange phone call from a supposed group called “The Broken Arrow”. Research was soon developed on the world that the Broken Arrow called <span class="censored">Shattered Glass</span>, however researchers could not discover where the world was or what cluster it was. The only thing certain about the world was its name, the fact that it had multiple countries, and the phone number of The Broken Arrow, <span class="censored">B17-483-592-5019</span>.<br><br>
 
 Researchers however would soon make a breakthrough, when a team of code-breakers would manage to discover The Senate’s phone number, which did specify a lot of things. First off, The Senate revealed that the world took place in the future, as well as hinting that they should learn more from the transcripts.
 {% endrenderTemplate %}
