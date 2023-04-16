@@ -62,8 +62,8 @@ Yibble is the primary base of operations of the Kelais Research Team. It is next
 
 Samarin is a village in the desert of Mastistan, with it's nearest city being Nottelocale, and is the base of operations for GPS, map data and other satellites. Samarin does not speak Anglese, only having an elder who knows basic Anglese.
 
-### Divore
-Divore is the capital of Cynetia, near a river. Like Yibble, the locals of Divore speak Anglese.
+### Drivore
+Drivore is the capital of Cynetia, near a river. Like Yibble, the locals of Divore speak Anglese.
 
 <div class="divider"></div> 
 <a href="/docs/world/kelais/update-1">➥ Kelais Update 1</a>

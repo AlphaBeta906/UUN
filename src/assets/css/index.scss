@@ -73,9 +73,7 @@ ion-icon {
 }
 
 .censored {
-    background: black;
-    border: 1px solid black;
-    color: black;
+    @apply bg-base-content border border-base-content text-base-content
 }
 
 .table-of-contents {
