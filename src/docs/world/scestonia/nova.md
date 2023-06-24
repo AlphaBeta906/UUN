@@ -10,10 +10,10 @@ description: Nova Scestonia also known as Scestonia C and formerly Minor Sceston
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
         <li><a href="/docs/world/scestonia">Scestonia</a></li>
-        <li><b>Major Scestonia</b></li>
+        <li><b>Nova Scestonia</b></li>
     </ul>
 </nav>
-<div class="text-center"><h1>Major Scestonia</h1></div>
+<div class="text-center"><h1>Nova Scestonia</h1></div>
 
 <div class="alert shadow-lg slate-color mb-5">
     <div>

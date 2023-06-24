@@ -20,7 +20,7 @@ description: The World of Kelais is a world in the A8 Cluster. It was discovered
     <div>
         {% include "warning.njk" %}
         <span>
-            This page is protected under C/RES/0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of the UUN, will result in termination.
+            This page is protected under C/RES/0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of your research team, your <a href="/docs/protocol/clearance" class="text-black">clearance level</a> or the UUN, will result in your immediate termination.
         </span>
     </div>
 </div>

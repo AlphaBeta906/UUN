@@ -1,5 +1,5 @@
 ---
-title: Communication-05
+title: Communication-06
 layout: layouts/index.njk
 tags:
     - Document
@@ -9,10 +9,10 @@ tags:
         <li><a href="/docs">Documents</a></li>
         <li><a href="/docs/world">Worlds</a></li>
         <li><a href="/docs/world/shaglas" class="censored text-base-content hover:text-base-content">Shattered Glass</a></li>
-		<li><b>Communication-05</b></li>
+		<li><b>Communication-06</b></li>
     </ul>
 </nav>
-<div class="text-center"><h1>Communication-05</h1></div>
+<div class="text-center"><h1>Communication-06</h1></div>
 {% slottedComponent '/components/passcode.svelte' 'hydrate' true %}
 <div class="grid gap-5 mb-5">
 <div class="alert alert-error shadow-lg">
@@ -33,14 +33,16 @@ tags:
     </div>
 </div>
 </div>
-
-<b>NOTE</b>: Text written in <i>italics</i> are deciphered by code-breakers.<br><br>
-
 <div class="pl-[15px] pr-[15px]">
-{% renderTemplate 'md' %}
-Hello, this is the Broken Arrow. Do not respond to this message. (x4).
-Hello. This is the Broken Arrow. A Notification has been sent by the Supreme Undying Leader that you should Worship. Failure to comply with our demands will lead to the destruction of the ports at *Yibble, Samarin, and Divore in Kelais*
-We have warned you enough. 
-{% endrenderTemplate %}
+Hello, this is the Broken Arrow. Do not respond to this message.<br>
+The Following locations will be targeted: [undecipherable language and static]<br>
+This is for your own benefit.<br>
+Again, The Following locations will be targeted: [undecipherable language and static]<br>
+This is for your own benefit.<br>
+We know that you will try to stop us.<br>
+Airstrikes will target [undecipherable language and static] on the Sworth.<br>
+Again, Airstrikes will target [undecipherable language and static] on the Sworth.<br>
+You will be given 24 hours to prepare to defend [undecipherable language and static].<br>
+Good luck. 
 </div>
 {% endslottedComponent %}

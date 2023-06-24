@@ -31,8 +31,8 @@
 <div class="alert shadow-lg mb-5 {da}">
     <div>
         <span>
-            This page is only available for Level 3 security clearance holders;
-            please enter valid credentials to access the page.
+            This page is only available for <a href="/docs/protocol/clearance/#level-3-clearance">Level 3 security clearance holders</a>;
+            please enter valid credentials to access the page. If we detect unauthorized users with malicious intent, we will terminate you immediately.
 
             <div class="m-2.5">
                 <!-- svelte-ignore a11y-click-events-have-key-events -->

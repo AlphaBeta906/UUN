@@ -19,8 +19,8 @@ description: The World of Mitnavner is a world in the A8 Cluster. It was disover
 <div class="alert alert-error shadow-lg">
     <div>
         {% include "warning.njk" %}
-        <span>
-            This page is protected under C/RES/0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of the UUN, will result in termination.
+                <span>
+            This page is protected under C/RES/0002, which is the Research Espionage Act. Any attempt to release this document to anyone outside of your research team, your <a href="/docs/protocol/clearance">clearance level</a> or the UUN, will result in your immediate termination.
         </span>
     </div>
 </div>
