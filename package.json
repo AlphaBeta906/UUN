@@ -17,7 +17,7 @@
   "dependencies": {
     "@builder.io/partytown": "^0.8.0",
     "autoprefixer": "^10.4.12",
-    "daisyui": "^2.31.0",
+    "daisyui": "^4.0.0",
     "dotenv": "^16.0.3",
     "elasticlunr": "^0.9.5",
     "figlet": "^1.5.2",
